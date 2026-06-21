@@ -1,0 +1,100 @@
+name: Release
+
+on:
+  push:
+    tags:
+      # Per-mod tag so multiple mods in one repo never collide, e.g. genderbent-dialogue/v1.0.0
+      - "*/v*"
+  workflow_dispatch:
+    inputs:
+      mod:
+        description: "Mod to release: folder name, UniqueID, manifest Name, or slug"
+        required: true
+      version:
+        description: "Version to verify against the manifest (optional; defaults to manifest Version)"
+        required: false
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Resolve target mod
+        id: meta
+        env:
+          EVENT: ${{ github.event_name }}
+          REF: ${{ github.ref_name }}
+          IN_MOD: ${{ github.event.inputs.mod }}
+          IN_VERSION: ${{ github.event.inputs.version }}
+        run: |
+          set -euo pipefail
+          if [ "$EVENT" = "workflow_dispatch" ]; then
+            slug="$IN_MOD"; want="$IN_VERSION"
+          else
+            slug="${REF%/*}"; want="${REF##*/v}"
+          fi
+          norm() { printf '%s' "$1" | tr '[:upper:]' '[:lower:]' | tr -cd 'a-z0-9'; }
+          nslug="$(norm "$slug")"
+          dir=""
+          while IFS= read -r m; do
+            d="$(dirname "$m")"
+            uid="$(jq -r '.UniqueID' "$m")"
+            name="$(jq -r '.Name' "$m")"
+            for cand in "$(basename "$d")" "$uid" "${uid##*.}" "$name"; do
+              if [ "$(norm "$cand")" = "$nslug" ]; then dir="$d"; break; fi
+            done
+            [ -n "$dir" ] && break
+          done < <(find . -mindepth 2 -maxdepth 2 -name manifest.json)
+          if [ -z "$dir" ]; then echo "::error::No mod matches '$slug'"; exit 1; fi
+          version="$(jq -r '.Version' "$dir/manifest.json")"
+          if [ -n "$want" ] && [ "$want" != "$version" ]; then
+            echo "::error::Requested version $want != manifest Version $version ($dir)"; exit 1
+          fi
+          uid="$(jq -r '.UniqueID' "$dir/manifest.json")"
+          {
+            echo "dir=$dir"
+            echo "version=$version"
+            echo "title=$(jq -r '.Name' "$dir/manifest.json")"
+            echo "zip=${uid##*.}-$version.zip"
+            echo "tag=$slug/v$version"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Stage mod files
+        run: |
+          set -euo pipefail
+          src="${{ steps.meta.outputs.dir }}"
+          dest="staging/$(basename "$src")"
+          mkdir -p "$dest"
+          cp -r "$src/manifest.json" "$src/content.json" "$src/i18n" "$src/patches" "$dest/"
+          for extra in README.md CHANGELOG.md; do
+            [ -f "$src/$extra" ] && cp "$src/$extra" "$dest/"
+          done
+
+      - name: Build zip
+        run: |
+          set -euo pipefail
+          (cd staging && zip -r "../${{ steps.meta.outputs.zip }}" .)
+
+      - name: Extract changelog section
+        run: |
+          set -euo pipefail
+          cl="${{ steps.meta.outputs.dir }}/CHANGELOG.md"
+          if [ -f "$cl" ]; then
+            awk -v ver="${{ steps.meta.outputs.version }}" \
+              'index($0, "## [" ver "]") == 1 {f=1; next} /^## \[/ {f=0} f' \
+              "$cl" > RELEASE_NOTES.md
+          fi
+          [ -s RELEASE_NOTES.md ] || echo "${{ steps.meta.outputs.title }} ${{ steps.meta.outputs.version }}" > RELEASE_NOTES.md
+
+      - name: Publish release
+        uses: softprops/action-gh-release@v2
+        with:
+          name: "${{ steps.meta.outputs.title }} ${{ steps.meta.outputs.version }}"
+          tag_name: "${{ steps.meta.outputs.tag }}"
+          body_path: RELEASE_NOTES.md
+          files: ${{ steps.meta.outputs.zip }}
+          fail_on_unmatched_files: true

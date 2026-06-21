@@ -1,0 +1,80 @@
+{
+  "Changes": [
+    {
+      "LogName": "AlexFemale ref [EN] Characters/Dialogue/Evelyn",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Evelyn",
+      "TargetLocale": "",
+      "When": {
+        "AlexFemale": true
+      },
+      "Entries": {
+        "GreenRain": "George, dear... Is this the end? It's been a good life, but I'd like to see Alex find her way before departing...$s%noturn",
+        "fall_Sat": "Are you friends with Alex?#$e#Sometime she worries me sick."
+      }
+    },
+    {
+      "LogName": "AlexFemale ref [RU] Characters/Dialogue/Evelyn",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Evelyn",
+      "TargetLocale": "ru-RU",
+      "When": {
+        "AlexFemale": true
+      },
+      "Entries": {
+        "GreenRain": "Джордж, дорогой... Это конец? У нас была хорошая жизнь, но я бы хотела, чтобы Алекс нашла себя до того, как я уйду...$s%noturn",
+        "fall_Sat": "Вы с Алексом дружите?#$e#Иногда я за нее так волнуюсь."
+      }
+    },
+    {
+      "LogName": "AlexFemale ref [EN] Characters/Dialogue/George",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/George",
+      "TargetLocale": "",
+      "When": {
+        "AlexFemale": true
+      },
+      "Entries": {
+        "Wed": "Alex is my granddaughter. Have I told you that already?#$e#Huh? Speak up."
+      }
+    },
+    {
+      "LogName": "AlexFemale ref [RU] Characters/Dialogue/George",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/George",
+      "TargetLocale": "ru-RU",
+      "When": {
+        "AlexFemale": true
+      },
+      "Entries": {
+        "Wed": "Алекс — моя внучка. Я тебе еще не говорил?#$e#А? Говори громче."
+      }
+    },
+    {
+      "LogName": "AlexFemale ref [EN] Characters/Dialogue/Haley",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Haley",
+      "TargetLocale": "",
+      "When": {
+        "AlexFemale": true
+      },
+      "Entries": {
+        "Event_room1": "Her? No!#$b#...Well, I guess I used to like Alex. But not anymore! She's immature.",
+        "winter_Sun6": "Um, if you see Alex could you tell her I'm busy today?#$e#Thanks."
+      }
+    },
+    {
+      "LogName": "AlexFemale ref [RU] Characters/Dialogue/Haley",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Haley",
+      "TargetLocale": "ru-RU",
+      "When": {
+        "AlexFemale": true
+      },
+      "Entries": {
+        "Event_room1": "Кто? Нет!#$b#... Ну, раньше-то Алекс мне нравилась. Но теперь уже нет! Она такая несерьезная.",
+        "winter_Sun6": "Эм, если встретишь Алекса, можешь сказать ей, что я сегодня занята?#$e#Спасибо."
+      }
+    }
+  ]
+}

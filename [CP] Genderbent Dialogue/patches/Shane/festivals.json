@@ -1,0 +1,66 @@
+{
+  "Changes": [
+    {
+      "LogName": "ShaneFemale [RU] Data/Festivals/spring24",
+      "Action": "EditData",
+      "Target": "Data/Festivals/spring24",
+      "TargetLocale": "ru-RU",
+      "When": {
+        "ShaneFemale": true
+      },
+      "Entries": {
+        "Shane_spouse_y2": "*рыг* Я переела перед танцами... Извини.$0",
+        "Shane_y2": "Я не нашла чистую рубашку, так что надела это.$0"
+      }
+    },
+    {
+      "LogName": "ShaneFemale [RU] Data/Festivals/summer28",
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer28",
+      "TargetLocale": "ru-RU",
+      "When": {
+        "ShaneFemale": true
+      },
+      "Entries": {
+        "Shane_spouse_y2": "Ну что, все готовы к осени? Я да...#$e#А? Я принесла большую пачку тыквенных чипсов. Можешь взять штучку."
+      }
+    },
+    {
+      "LogName": "ShaneFemale [RU] Data/Festivals/fall16",
+      "Action": "EditData",
+      "Target": "Data/Festivals/fall16",
+      "TargetLocale": "ru-RU",
+      "When": {
+        "ShaneFemale": true
+      },
+      "Entries": {
+        "Shane_spouse_y2": "Чуть позже я попрошу тебя присмотреть за животными, а сама схожу поесть.$0"
+      }
+    },
+    {
+      "LogName": "ShaneFemale [RU] Data/Festivals/fall27",
+      "Action": "EditData",
+      "Target": "Data/Festivals/fall27",
+      "TargetLocale": "ru-RU",
+      "When": {
+        "ShaneFemale": true
+      },
+      "Entries": {
+        "Shane_spouse_y2": "Я уговорила Марни, и она разрешила взять Джас в лабиринт. Думаю, она уже достаточно большая.$0#$e#Мы медленно идем, так что давай без нас!$1"
+      }
+    },
+    {
+      "LogName": "ShaneFemale [RU] Data/Festivals/winter25",
+      "Action": "EditData",
+      "Target": "Data/Festivals/winter25",
+      "TargetLocale": "ru-RU",
+      "When": {
+        "ShaneFemale": true
+      },
+      "Entries": {
+        "Shane": "Я знавала людей, которые верят в духов и волшебство... А что я? Я еще не видела ничего такого, чего бы не смогла объяснить наука.",
+        "Shane_spouse_y2": "За что я благодарна?#$b#....Эм...$3#$b#Благодарна за то... что с твоей помощью выбралась из грязи. И с тобой я поняла, что я еще хочу жить.$6"
+      }
+    }
+  ]
+}

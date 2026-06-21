@@ -1,0 +1,30 @@
+{
+  "Changes": [
+    {
+      "LogName": "Shared [RU] Characters/Dialogue/Sam dating_Sebastian (Sam+Sebastian)",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Sam",
+      "TargetLocale": "ru-RU",
+      "When": {
+        "SamFemale": true,
+        "SebastianFemale": true
+      },
+      "Entries": {
+        "dating_Sebastian": "Слышала, вы с Себастианом встречаетесь... Смотри, чтобы она не пропускала еженедельные репетиции!"
+      }
+    },
+    {
+      "LogName": "Shared [RU] Characters/Dialogue/Sam married_Sebastian (Sam+Sebastian)",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Sam",
+      "TargetLocale": "ru-RU",
+      "When": {
+        "SamFemale": true,
+        "SebastianFemale": true
+      },
+      "Entries": {
+        "married_Sebastian": "Ух ты, я и подумать не могла, что у вас с Себастианом что-то получится. Времена меняются...$u#$e#Хех, ничего, надеюсь, у нее еще останется время на меня."
+      }
+    }
+  ]
+}

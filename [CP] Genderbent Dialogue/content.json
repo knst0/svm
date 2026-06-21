@@ -1,0 +1,139 @@
+{
+  "Format": "2.1.0",
+  "ConfigSchema": {
+    "AlexFemale": {
+      "AllowValues": "true, false",
+      "Default": "false"
+    },
+    "ElliottFemale": {
+      "AllowValues": "true, false",
+      "Default": "false"
+    },
+    "HarveyFemale": {
+      "AllowValues": "true, false",
+      "Default": "false"
+    },
+    "SamFemale": {
+      "AllowValues": "true, false",
+      "Default": "false"
+    },
+    "SebastianFemale": {
+      "AllowValues": "true, false",
+      "Default": "false"
+    },
+    "ShaneFemale": {
+      "AllowValues": "true, false",
+      "Default": "false"
+    }
+  },
+  "Changes": [
+    {
+      "Action": "Include",
+      "FromFile": "patches/Sebastian/gender.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "patches/Sebastian/dialogue.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "patches/Sebastian/references.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "patches/Sebastian/events.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "patches/Shane/gender.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "patches/Shane/dialogue.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "patches/Shane/references.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "patches/Shane/events.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "patches/Shane/festivals.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "patches/Harvey/gender.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "patches/Harvey/dialogue.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "patches/Harvey/references.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "patches/Harvey/events.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "patches/Alex/gender.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "patches/Alex/dialogue.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "patches/Alex/references.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "patches/Alex/events.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "patches/Elliott/gender.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "patches/Elliott/dialogue.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "patches/Elliott/references.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "patches/Elliott/events.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "patches/Sam/gender.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "patches/Sam/dialogue.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "patches/Sam/references.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "patches/Sam/events.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "patches/Shared/dialogue.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "patches/Shared/events.json"
+    }
+  ]
+}

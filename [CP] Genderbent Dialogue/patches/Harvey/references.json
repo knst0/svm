@@ -1,0 +1,43 @@
+{
+  "Changes": [
+    {
+      "LogName": "HarveyFemale ref [EN] Characters/Dialogue/Maru",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Maru",
+      "TargetLocale": "",
+      "When": {
+        "HarveyFemale": true
+      },
+      "Entries": {
+        "Wed": "On Tuesdays and Thursdays I work at Harvey's clinic.#$b#She says she likes having me around in case her medical equipment goes haywire!$h#$e#Being a farmer must be pretty easy, huh?",
+        "Wed8": "I'm glad to have a job at the clinic... I feel like I'm helping people in town.#$e#Dr. Harvey? She's nice, but not really my type..."
+      }
+    },
+    {
+      "LogName": "HarveyFemale ref [RU] Characters/Dialogue/Maru",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Maru",
+      "TargetLocale": "ru-RU",
+      "When": {
+        "HarveyFemale": true
+      },
+      "Entries": {
+        "Wed": "По вторникам и четвергам я работаю в клинике у Харви.#$b#Она говорит, ей нравится, что я рядом, если вдруг оборудование выйдет из строя!$h#$e#Фермером, наверное, быть очень просто, да?",
+        "Wed8": "Я рада, что работаю в клинике... Чувствую, что помогаю людям.#$e#Доктор Харви... Она милая, но не мой типаж..."
+      }
+    },
+    {
+      "LogName": "HarveyFemale ref [RU] Strings/StringsFromCSFiles",
+      "Action": "EditData",
+      "Target": "Strings/StringsFromCSFiles",
+      "TargetLocale": "ru-RU",
+      "When": {
+        "HarveyFemale": true
+      },
+      "Entries": {
+        "Event.cs.1068": "Д-р Харви выписала мне счет в {0} з. за мед. услуги.",
+        "Event.cs.1070": "Денег у меня нет, но Харви была обязана по закону спасти мне жизнь бесплатно."
+      }
+    }
+  ]
+}

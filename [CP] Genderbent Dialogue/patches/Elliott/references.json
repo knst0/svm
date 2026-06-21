@@ -1,0 +1,40 @@
+{
+  "Changes": [
+    {
+      "LogName": "ElliottFemale ref [RU] Characters/Dialogue/Leah",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Leah",
+      "TargetLocale": "ru-RU",
+      "When": {
+        "ElliottFemale": true
+      },
+      "Entries": {
+        "married_Elliott": "Эллиот такая романтичная... Уверена, теперь в твоей жизни будет столько поэзии!$h"
+      }
+    },
+    {
+      "LogName": "ElliottFemale ref [EN] Characters/Dialogue/Shane",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Shane",
+      "TargetLocale": "",
+      "When": {
+        "ElliottFemale": true
+      },
+      "Entries": {
+        "event_room1": "Okay... that'll require a great script. Maybe I'll ask Elliott for advice next time I see her at the saloon.$s"
+      }
+    },
+    {
+      "LogName": "ElliottFemale ref [RU] Characters/Dialogue/Shane",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Shane",
+      "TargetLocale": "ru-RU",
+      "When": {
+        "ElliottFemale": true
+      },
+      "Entries": {
+        "event_room1": "Ладно... Понадобится хороший сценарий. Может, спрошу совета у Эллиота, когда встречу ее в салуне.$s"
+      }
+    }
+  ]
+}

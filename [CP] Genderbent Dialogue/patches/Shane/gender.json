@@ -1,0 +1,17 @@
+{
+  "Changes": [
+    {
+      "LogName": "Shane -> Female (Data/Characters)",
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "Fields": {
+        "Shane": {
+          "Gender": "Female"
+        }
+      },
+      "When": {
+        "ShaneFemale": true
+      }
+    }
+  ]
+}

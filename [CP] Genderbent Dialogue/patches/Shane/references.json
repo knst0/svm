@@ -1,0 +1,115 @@
+{
+  "Changes": [
+    {
+      "LogName": "ShaneFemale ref/regender [RU] Characters/Dialogue/Emily",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Emily",
+      "TargetLocale": "ru-RU",
+      "When": {
+        "ShaneFemale": true
+      },
+      "Entries": {
+        "married_Shane": "Что ж, вы теперь семья. Похоже, Шейн больше не будет так часто в Салун заходить!#$e#Это, наверное, к лучшему, но всегда грустно терять постоянную клиентку...$s"
+      }
+    },
+    {
+      "LogName": "ShaneFemale ref/regender [EN] Characters/Dialogue/Jas",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Jas",
+      "TargetLocale": "",
+      "When": {
+        "ShaneFemale": true
+      },
+      "Entries": {
+        "Sun10": "Did you know Shane's my godmother? She was a friend of my parents.$s#$e#...they died. *sniff*$s"
+      }
+    },
+    {
+      "LogName": "ShaneFemale ref/regender [RU] Characters/Dialogue/Jas",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Jas",
+      "TargetLocale": "ru-RU",
+      "When": {
+        "ShaneFemale": true
+      },
+      "Entries": {
+        "Sun10": "А ты знаешь, что Шейн — моя крестная? Она была подругой моих родителей.$s#$e#... Они умерли. *Всхлипывает*$s"
+      }
+    },
+    {
+      "LogName": "ShaneFemale ref/regender [EN] Characters/Dialogue/Jodi",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Jodi",
+      "TargetLocale": "",
+      "When": {
+        "ShaneFemale": true
+      },
+      "Entries": {
+        "eventSeen_3910975": "*whisper* Did you hear about Shane? That's so terrible... I hope she's doing okay.$s"
+      }
+    },
+    {
+      "LogName": "ShaneFemale ref/regender [RU] Characters/Dialogue/Jodi",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Jodi",
+      "TargetLocale": "ru-RU",
+      "When": {
+        "ShaneFemale": true
+      },
+      "Entries": {
+        "eventSeen_3910975": "*шепчет* Вот это у Шейна и ситуация, да? Как ужасно... Надеюсь, она в порядке.$s"
+      }
+    },
+    {
+      "LogName": "ShaneFemale ref/regender [EN] Characters/Dialogue/Leah",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Leah",
+      "TargetLocale": "",
+      "When": {
+        "ShaneFemale": true
+      },
+      "Entries": {
+        "married_Shane": "I'm happy that Shane's in such a good place. I've never seen her smile so much!#$e#With her love for chickens, I'm sure she'll fit right in on %farm Farm!$h"
+      }
+    },
+    {
+      "LogName": "ShaneFemale ref/regender [RU] Characters/Dialogue/Leah",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Leah",
+      "TargetLocale": "ru-RU",
+      "When": {
+        "ShaneFemale": true
+      },
+      "Entries": {
+        "married_Shane": "Рада, что Шейн в таком хорошем месте. Никогда не видела, чтобы она столько улыбалась!#$e#Она так любит курочек, на ферме «%farm» ей самое место!$h"
+      }
+    },
+    {
+      "LogName": "ShaneFemale ref/regender [EN] Characters/Dialogue/Marnie",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Marnie",
+      "TargetLocale": "",
+      "When": {
+        "ShaneFemale": true
+      },
+      "Entries": {
+        "married_Shane": "I'm glad Shane's moving to your farm... she can keep the family tradition alive!",
+        "Tue": "$query PLAYER_NPC_RELATIONSHIP any Shane married roommate#Now that Shane's gone, I'm going to have to teach Jas how to care for the chickens.|My niece Shane has been staying at my place the last few months.#$e#She helps me out with the chickens, so I'm not complaining."
+      }
+    },
+    {
+      "LogName": "ShaneFemale ref/regender [RU] Characters/Dialogue/Marnie",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Marnie",
+      "TargetLocale": "ru-RU",
+      "When": {
+        "ShaneFemale": true
+      },
+      "Entries": {
+        "dating_Shane_memory_oneweek": "В последнее время Шейн выглядит гораздо более приободренной и полной надежд.#$b#Я так рада, что ты ${поселился^поселилась}$ неподалеку и что вы двое так поладили!$h",
+        "married_Shane": "Я рада, что Шейн переехала к тебе на ферму... Так мы сможем сохранить семейную традицию!",
+        "Tue": "$query PLAYER_NPC_RELATIONSHIP any Shane married roommate#Раз Шейн переехала, теперь мне придется учить Джас за курами смотреть.|Моя племянница Шейн уже пару месяцев живет у меня.#$e#Она помогает мне с курами, так что я не жалуюсь."
+      }
+    }
+  ]
+}

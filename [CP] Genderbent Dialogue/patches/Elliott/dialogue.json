@@ -1,0 +1,131 @@
+{
+  "Changes": [
+    {
+      "LogName": "ElliottFemale regender [RU] Characters/Dialogue/Elliott",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Elliott",
+      "TargetLocale": "ru-RU",
+      "When": {
+        "ElliottFemale": true
+      },
+      "Entries": {
+        "AcceptBirthdayGift_Positive": "Я польщена, что ты помнишь о моем дне рождения. Спасибо!$h",
+        "firstVisit_ElliottHouse": "Ой... Извини, что у меня тут не убрано. Я и не думала, что кто-то зайдет!",
+        "dating_Elliott": "Как жаль, что я не первая подарила тебе букет!$l",
+        "eventSeen_40_memory_oneday": "Не так давно я прекрасно посидела в Салуне... Печень моя, конечно, была этому не очень рада...",
+        "Resort_Chair": "Я ненадолго присела, чтобы натереться кокосовым маслом.$h",
+        "Resort_Wander": "Я слышала, что по ночам на этот берег высаживаются пираты. И что это может быть та еще дичь!",
+        "Resort": "Должна признать, этот пляж даже меня поразил в самое сердце.",
+        "secondChance_Guys": "Ты так сильно меня ${ранил^ранила}$... Но я готова забыть про прошлое.$s",
+        "Mon": "Я и сама недавно в этом городе, но чувствую себя действительно как дома.$h#$e#Я приехала сюда всего за год до тебя.",
+        "Tue6": "Нежное трение ручки о бумагу — музыка для моей души.$u#$b#Поэтому я избрала этот пляж себе домом, чтобы работать в тишине и покое.",
+        "Wed8": "Прости, сегодня я в дурном расположении духа.$s#$e#Мне бы так хотелось, чтобы в будущем было больше ясности.$s#$e#Я не хочу состариться одинокой отшельницей на этом пляже...$s",
+        "Thu8": "#$1 elliottApol#Здесь, на пляже, немного одиноко... Потому я прошу прощения, если я была слишком пряма при нашей первой встрече. Мне лишь очень сильно хотелось иметь друга.$k#$e#Очень приятно иметь такого близкого друга, как ты.",
+        "Sun6": "О, @! Я как раз надеялась тебя увидеть.#$e#Всегда приятно встретиться с тобой.$h",
+        "event_idea3": "Ни за что бы не догадалась! Полагаю, даже люди самых «приземленных» профессий иногда любят помечтать о звездах.$h#$b#Я это запомню.",
+        "event_boat1": "... Я боялась, что ты не сможешь почувствовать такое к другому мужчине.$l^И для меня тоже.$l",
+        "summer_Mon": "Сегодня утром меня разбудил нежный солнечный лучик. Никогда еще не чувствовала себя так свежо.$u#$e#Прости, если тебе это неинтересно.",
+        "summer_Mon4": "Я знаю, что немного \"чудаковата\".#$e#Надеюсь, тебя это не беспокоит.$h",
+        "summer_Tue": "Я нашла немного прекрасных ракушек перед своим домом.#$e#Полагаю, редкие их разновидности весьма ценны.",
+        "fall_Tue8": "@, я как раз думала о тебе.$l#$e#Может, ты это чувствуешь.$h#$e#Итак! Поведай мне, как прошел твой день?",
+        "fall_Wed8": "Я бы не возражала против жизни на ферме.#$e#Спокойная атмосфера фермы может стать хорошим источником литературного вдохновения, ты так не думаешь?$h",
+        "fall_Fri4": "У меня затекли ноги, я всю ночь сидела за письменным столом.$s#$e#Иногда я завидую тебе, @.",
+        "fall_Fri": "У меня затекли ноги, я все утро сидела за письменным столом.$s",
+        "winter_Thu6": "Сделай глубокий вдох. Чувствуешь? Это запах моря.#$e#Каждый раз, когда я чую запах моря, я вспоминаю о юности. Когда я была ребенком, океан меня очень впечатлил.",
+        "winter_Fri": "Мне приходится ежедневно расчесывать волосы, иначе они собьются в колтуны.#$e#Это большой труд.#$e#Я удивлена, как я до сих пор не сбрила их в сердцах.$h#$e#Полагаю, я слишком для этого тщеславна."
+      }
+    },
+    {
+      "LogName": "ElliottFemale regender [EN] Characters/Dialogue/MarriageDialogueElliott",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueElliott",
+      "TargetLocale": "",
+      "When": {
+        "ElliottFemale": true
+      },
+      "Entries": {
+        "Rainy_Night_3": "What did I do today? I'll just say this... it takes a lot of work to maintain this graceful physique!",
+        "Indoor_Day_0": "I've been taking much better care of myself now that we're together. The bachelorette life wasn't particularly healthy for me.",
+        "OneKid_3": "Caring for babies isn't exactly my strong suit... but I'll do my best to be a good mother.",
+        "TwoKids_1": "I was carrying %kid1 earlier, and I could've sworn I heard a \"Ma...ma\".$h",
+        "fall_26": "Would you still love me if I guzzled two gallons of pumpkin ale at the Spirit's Eve festival? Sometimes a woman has primitive urges..."
+      }
+    },
+    {
+      "LogName": "ElliottFemale regender [RU] Characters/Dialogue/MarriageDialogueElliott",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueElliott",
+      "TargetLocale": "ru-RU",
+      "When": {
+        "ElliottFemale": true
+      },
+      "Entries": {
+        "Rainy_Day_2": "Я встала пораньше и сделала кофе.[395]#$e#Я нахожу, что чашка этого изысканного напитка делает раннее утро намного приятнее.",
+        "Rainy_Day_4": "Писательское вдохновение — как погода... Оно появляется и уходит спонтанно. Сегодня я чувствую себя совершенно пустой.$s#$e#Пожалуй, почитаю классику, чтобы расшевелить свою творческую жилку.",
+        "Rainy_Night_3": "Чем я сегодня занималась? Я скажу только одно... Чтобы сохранять такую изящную фигуру, требуется много труда!",
+        "Rainy_Night_4": "Я весь день промечтала об океане. Поэтому сегодня у нас морепродукты.[198 202 727 728]$h",
+        "Indoor_Day_0": "С тех пор, как мы вместе, я начала гораздо лучше следить за собой. Незамужняя жизнь была не очень-то здоровой.",
+        "Indoor_Day_1": "Доброе утро, @! Я сварила нам кофе.[395]#$e#Я поняла, что хочу наслаждаться этим крепким вкусом каждое утро.",
+        "Indoor_Night_2": "У меня никогда не получалось вырастить что-нибудь в своем старом домике. Надеюсь, наблюдая за тобой я научусь чему-нибудь.#$e#В этом деле ты — мастер, а я — скромная ученица.",
+        "Indoor_Night_4": "${Любимый^Любимая}$... Я не променяла бы тебя и на 100 иридиевых слитков.#$e#И не на 1000...#$e#Даже не на 10,000 слитков, нет.$7#$e#...$7#$e#Нет, даже не на 100,000!$a#$e#...$s#$e#Стоп... Миллион слитков чистого иридия?.. Не вынуждай меня делать этого...$8",
+        "Outdoor_4": "Я выпила слишком много кофе... Во рту сухо, как в пустыне Калико.$s#$e#Ой... Прости за кофейное дыхание.$7",
+        "OneKid_3": "Уход за детьми — не самая моя сильная сторона... Но постараюсь быть хорошей матерью.",
+        "TwoKids_1": "Клянусь, я слышала, как %kid1... пытается сказать «Ма... ма».$h",
+        "Good_1": "Я тайком написала целую книгу стихов о моей любви к тебе.$l",
+        "Good_2": "Я попала в эту долину в поисках башни из слоновой кости, в которой мои таланты могли бы безраздельно править бал. Но нашла я лишь подземелье одиночества. Ты — ${мой спаситель^моя спасительница}$.$l",
+        "Good_4": "В твое отсутствие я чувствую себя такой бесполезной. Но когда я слышу шаги твоих грязных сапог по дереву, мое сердце восстает из пепла.",
+        "funReturn_Elliott": "Я приятно провела время в одиночестве на пляже. Я смотрела, как приходят и уходят волны, прямо как в старые времена.",
+        "summer_10": "Сегодня я хотела взять еще одну бутылку чернил в своем домике, но потом вспомнила, что завтра луау. Вот завтра и заберу.",
+        "fall_26": "Ты не перестанешь любить меня, если на День всех духов я выглушу литров семь тыквенного эля? Иногда у женщин бывают примитивные позывы...",
+        "winter_7": "Я немного подзабыла основы, но завтра я все равно поучаствую в рыболовном соревновании! Конкурент у тебя будет так себе, любовь моя."
+      }
+    },
+    {
+      "LogName": "ElliottFemale regender [RU] Characters/Dialogue/MarriageDialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogue",
+      "TargetLocale": "ru-RU",
+      "When": {
+        "ElliottFemale": true
+      },
+      "Entries": {
+        "Indoor_Day_Elliott": "С тех пор, как я переехала к тебе, я веду дневник. Теперь, когда у меня, наконец, есть своя жизнь, мне есть о чем писать.$h#$e#Я хочу удостовериться, что никогда не забуду об этих временах."
+      }
+    },
+    {
+      "LogName": "ElliottFemale regender [EN] Data/mail",
+      "Action": "EditData",
+      "Target": "Data/mail",
+      "TargetLocale": "",
+      "When": {
+        "ElliottFemale": true
+      },
+      "Entries": {
+        "elliottLetter1": "@, my love,^^I've just arrived in Grampleton, to start the tour. I've forgotten how hectic the city is! The streets are packed with people... they either seem in a mad hurry, or lost in a daze, unaware of their surroundings. I miss Pelican Town already!^^I begin the tour this evening, at a local bookstore. I must admit, I'm becoming a bit nervous at the thought of public speaking... my stomach feels as if it's been twisted into a soft pretzel and doused with spicy cheese dip. Wish me luck!^^-Love, Elliott^^P.S. I hope you had a peaceful night, and weren't too scared all alone in that big house! %item conversationTopic ElliottGone2 0 %%[#]Letter From My Wife",
+        "elliottLetter2": "My dear @,^^The first reading went well, though the audience was a bit smaller than I'd hoped. Still, I sold enough copies of the book to pay for my (bug-infested) hotel room!^^In a few hours, I leave for Zuzu City. If yesterday's reading was a warm-up, this next one will be a true napalm blast...^^I miss you very much. Remember to eat well! Oh, and don't forget the leftover crab cakes I put in the fridge...^-Love, Elliott %item conversationTopic ElliottGone3 0 %%[#]Letter From My Wife 2",
+        "elliottLetter3": "My sweet @,^^Last night in Zuzu City was quite the experience! It seems there's a large literary scene here... a few dozen people showed up at my reading!^^I even signed a couple of autographs... it's strange to be seen as someone important. It's all a matter of framing, a grand illusion... for truly I am no one special. Only your devoted Elliott, as always.^^Currently I'm alone, in my hotel room, 'ingesting' a Joja Value Meal...^^Should this be called 'food'?^Or 'edible matter'?^I needn't long brood^It must be the latter^^I look forward to returning home soon. Hope you enjoyed the crab cakes.^^-Love, Elliott %item conversationTopic ElliottGone4 0 %%[#]Letter From My Wife 3",
+        "elliottLetter4": "In dreams, when graced with lofty view^I gaze upon the sunlit sea^What distant shores I've traveled to^But time now clouds my memory^^There is but one eternal place^Where I shall someday pass beyond^In Valley dear, where my love waits:^Our little home beside the pond^^-Elliott %item conversationTopic ElliottGone5 0 %%[#]Letter From My Wife 4",
+        "elliottLetter5": "My dear @,^^I won't bore you with any more details about my readings. They are mostly the same.^^I'm sure your time has been much more exciting! I can't wait to return and see what progress has been made.^^On these long travels between towns, I amuse myself by closing my eyes and envisioning the farm... I see kegs pulsing with sweet wine, a furnace ablaze with precious ore, and our little kitchen with the smell of cinnamon and nutmeg. There's a lot to enjoy!^^Just don't stay out too late in the mines, my love. It's dangerous in there! If you must go... bring plenty of food.^^-Love, Elliott %item conversationTopic ElliottGone6 0 %%[#]Letter From My Wife 5",
+        "elliottLetter6": "My dear @,^^This will be my last letter before I return home. I've had a fine trip... though nothing too exciting. It's been nice to meet people who enjoy my work, but I'm eager to return home.^^I look forward to the comfort of our little house, the satisfying farm work, a home-cooked meal, and most of all, cozying into the flannel sheets with you.^^See you soon!^-Love, Elliott %item conversationTopic ElliottGone7 0 %%[#]Letter From My Wife 6"
+      }
+    },
+    {
+      "LogName": "ElliottFemale regender [RU] Data/mail",
+      "Action": "EditData",
+      "Target": "Data/mail",
+      "TargetLocale": "ru-RU",
+      "When": {
+        "ElliottFemale": true
+      },
+      "Entries": {
+        "elliottReading": "@,^у меня отличные новости... Я закончила свой роман!! Сегодня днем я устраиваю публичное чтение в библиотеке. Надеюсь, ты придешь! ^   -Эллиот[#]Публичное чтение Эллиота",
+        "elliottLetter1": "@, любовь моя,^^Я только прибыла в Грамплтон, начальную точку турне. Я уже и забыла, что город такой шумный. А сколько тут людей... они либо куда-то спешат, либо блуждают с отсутствующим взглядом, а то и вовсе стоят и смотрят в одну точку. Я уже скучаю по Пеликану!^^Мое турне начинается сегодня вечером в местной библиотеке. Скажу честно, от одной мысли о публичных чтениях мне уже немного не по себе... такое чувство, что мой желудок скрутили в мягкий крендель, а потом окунули в сырный соус. Пожелай мне удачи!^^-С любовью, Эллиот^^P.S. Надеюсь, тебе хорошо спалось в одиночестве в нашем огромном доме! %item conversationTopic ElliottGone2 0 %%[#]Письмо от жены",
+        "elliottLetter2": "${Мой дорогой^Моя дорогая}$ @,^^Мое первое выступление прошло хорошо, хоть публики и было меньше, чем я ожидала. Но я умудрилась продать достаточно экземпляров своей книги, чтобы заплатить за номер в отеле (полный клопов)!^^Через несколько часов я выезжаю в город Зузу. Если вчерашнее выступление было лишь разогревом, то следующее, скорее всего, заставит меня взмокнуть не на шутку...^^Очень по тебе скучаю. Кушай хорошо! Ой, и не забудь о тех крабовых котлетках, которые я оставила в холодильнике...^-С любовью, Эллиот %item conversationTopic ElliottGone3 0 %%[#]Письмо от жены 2",
+        "elliottLetter3": "@, радость моя,^^Мое вчерашнее выступление в городе Зузу было потрясающим опытом! Похоже, тут литературу ценят побольше, так что пришло довольно много народа!^^Я даже подписала несколько книг... так странно, что кто-то считает это важным. Но ведь это все лишь видимость, искусственный конструкт... я же простой человек. Всего лишь твоя любимая Эллиот.^^Сейчас я одна в номере, «поглощаю» сытный обед Джоджа...^^Как вообще можно такое «едой» называть?^Или это больше «съедобная материя»?^Не буду даже думать об этом.^Наверное, все же, второе.^^Очень хочу вернуться домой. Надеюсь, тебе понравились крабовые котлетки.^^-С любовью, Эллиот %item conversationTopic ElliottGone4 0 %%[#]Письмо от жены 3",
+        "elliottLetter4": "Во снах, где взгляд я наполняла^Закатным морем, вспоминаю,^О берегах, где я бывала,^ Но время память затмевает.^^Из вечных мест одно лишь вновь^Я вспомню, в нем же вечность встречу:^В долине милой ждет любовь^У дома с прудом в летний вечер.^^-Эллиот %item conversationTopic ElliottGone5 0 %%[#]Письмо от жены 4",
+        "elliottLetter5": "${Мой дорогой^Моя дорогая}$ @,^^Не буду утомлять тебя рассказами о моих чтениях. Они все одинаковые.^^Уверена, у тебя там намного веселее! Не могу дождаться, когда вернусь и увижу, как похорошела ферма.^^Во время долгих переездов между городами я закрываю глаза и представляю ее... Мне видятся бочки, полные вина, кузнечная печь с ценными металлами и наша кухонька, где пахнет корицей и мускатным орехом. Так много всего прекрасного!^^Только не засиживайся в шахтах, любовь моя. Там опасно! А мне пора... Привезу много еды.^^-С любовью, Эллиот %item conversationTopic ElliottGone6 0 %%[#]Письмо от жены 5",
+        "elliottLetter6": "@, любовь моя,^^Это последнее письмо из поездки, а потом я сразу поеду домой. Поездка была неплохая... но не особо впечатляющая. Было приятно познакомиться с людьми, которые ценят твой труд, но уж очень я хочу домой.^^С нетерпением жду того, как вернусь в уют наших стен, к работе на природе, домашней еде и любви всей моей жизни — тебе. Не могу дождаться, когда мы снова будем кутаться во фланелевых простынях.^^До скорого!^-С любовью, Эллиот %item conversationTopic ElliottGone7 0 %%[#]Письмо от жены 6"
+      }
+    }
+  ]
+}

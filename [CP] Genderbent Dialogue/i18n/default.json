@@ -1,0 +1,14 @@
+{
+  "config.AlexFemale.name": "Alex is female",
+  "config.AlexFemale.description": "Make Alex a woman: changes the gender data and rewrites her gendered dialogue, marriage, references and heart events (English & Russian).",
+  "config.ElliottFemale.name": "Elliott is female",
+  "config.ElliottFemale.description": "Make Elliott a woman: changes the gender data and rewrites her gendered dialogue, marriage, references, mail and heart events (English & Russian).",
+  "config.HarveyFemale.name": "Harvey is female",
+  "config.HarveyFemale.description": "Make Harvey a woman: changes the gender data and rewrites her gendered dialogue, marriage, references and heart events (English & Russian).",
+  "config.SamFemale.name": "Sam is female",
+  "config.SamFemale.description": "Make Sam a woman: changes the gender data and rewrites her gendered dialogue, marriage, references, mail and heart events (English & Russian).",
+  "config.SebastianFemale.name": "Sebastian is female",
+  "config.SebastianFemale.description": "Make Sebastian a woman: changes the gender data and rewrites her gendered dialogue, references and events (English & Russian).",
+  "config.ShaneFemale.name": "Shane is female",
+  "config.ShaneFemale.description": "Make Shane a woman: changes the gender data and rewrites her gendered dialogue, marriage, references, mail, events and festivals (English & Russian)."
+}

@@ -1,0 +1,22 @@
+{
+  "Name": "Genderbent Dialogue",
+  "Author": "knst0",
+  "Version": "1.0.0",
+  "Description": "Lore-friendly NPC genderbend (data only). Rewrites the in-game gender field plus gendered dialogue, events, and other NPCs' references to female for English and Russian. No textures — pair with a portrait/sprite mod. Currently Sebastian, Shane, Harvey, Alex, Elliott and Sam; toggle per character in Generic Mod Config Menu.",
+  "UniqueID": "knst0.GenderbentDialogue",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+    "MinimumVersion": "2.1.0"
+  },
+  "Dependencies": [
+    {
+      "UniqueID": "Pathoschild.ContentPatcher",
+      "IsRequired": true
+    },
+    {
+      "UniqueID": "spacechase0.GenericModConfigMenu",
+      "IsRequired": false
+    }
+  ]
+}
