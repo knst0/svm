@@ -9,8 +9,8 @@
         "AlexFemale": true
       },
       "Entries": {
-        "GreenRain": "George, dear... Is this the end? It's been a good life, but I'd like to see Alex find her way before departing...$s%noturn",
-        "fall_Sat": "Are you friends with Alex?#$e#Sometime she worries me sick."
+        "GreenRain": "George, dear... Is this the end? It's been a good life, but I'd like to see {{AlexName}} find her way before departing...$s%noturn",
+        "fall_Sat": "Are you friends with {{AlexName}}?#$e#Sometime she worries me sick."
       }
     },
     {
@@ -22,8 +22,8 @@
         "AlexFemale": true
       },
       "Entries": {
-        "GreenRain": "Джордж, дорогой... Это конец? У нас была хорошая жизнь, но я бы хотела, чтобы Алекс нашла себя до того, как я уйду...$s%noturn",
-        "fall_Sat": "Вы с Алексом дружите?#$e#Иногда я за нее так волнуюсь."
+        "GreenRain": "Джордж, дорогой... Это конец? У нас была хорошая жизнь, но я бы хотела, чтобы {{AlexNameNom}} нашла себя до того, как я уйду...$s%noturn",
+        "fall_Sat": "Вы с {{AlexNameIns}} дружите?#$e#Иногда я за нее так волнуюсь."
       }
     },
     {
@@ -35,7 +35,7 @@
         "AlexFemale": true
       },
       "Entries": {
-        "Wed": "Alex is my granddaughter. Have I told you that already?#$e#Huh? Speak up."
+        "Wed": "{{AlexName}} is my granddaughter. Have I told you that already?#$e#Huh? Speak up."
       }
     },
     {
@@ -47,7 +47,7 @@
         "AlexFemale": true
       },
       "Entries": {
-        "Wed": "Алекс — моя внучка. Я тебе еще не говорил?#$e#А? Говори громче."
+        "Wed": "{{AlexNameNom}} — моя внучка. Я тебе еще не говорил?#$e#А? Говори громче."
       }
     },
     {
@@ -59,8 +59,8 @@
         "AlexFemale": true
       },
       "Entries": {
-        "Event_room1": "Her? No!#$b#...Well, I guess I used to like Alex. But not anymore! She's immature.",
-        "winter_Sun6": "Um, if you see Alex could you tell her I'm busy today?#$e#Thanks."
+        "Event_room1": "Her? No!#$b#...Well, I guess I used to like {{AlexName}}. But not anymore! She's immature.",
+        "winter_Sun6": "Um, if you see {{AlexName}} could you tell her I'm busy today?#$e#Thanks."
       }
     },
     {
@@ -72,8 +72,8 @@
         "AlexFemale": true
       },
       "Entries": {
-        "Event_room1": "Кто? Нет!#$b#... Ну, раньше-то Алекс мне нравилась. Но теперь уже нет! Она такая несерьезная.",
-        "winter_Sun6": "Эм, если встретишь Алекса, можешь сказать ей, что я сегодня занята?#$e#Спасибо."
+        "Event_room1": "Кто? Нет!#$b#... Ну, раньше-то {{AlexNameNom}} мне нравилась. Но теперь уже нет! Она такая несерьезная.",
+        "winter_Sun6": "Эм, если встретишь {{AlexNameAcc}}, можешь сказать ей, что я сегодня занята?#$e#Спасибо."
       }
     }
   ]

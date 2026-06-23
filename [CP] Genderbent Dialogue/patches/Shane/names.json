@@ -1,0 +1,20 @@
+{
+  "Changes": [
+    {
+      "LogName": "ShaneFemale display name [EN] Strings/NPCNames",
+      "Action": "EditData",
+      "Target": "Strings/NPCNames",
+      "TargetLocale": "",
+      "When": { "ShaneFemale": true },
+      "Entries": { "Shane": "{{ShaneName}}" }
+    },
+    {
+      "LogName": "ShaneFemale display name [RU] Strings/NPCNames",
+      "Action": "EditData",
+      "Target": "Strings/NPCNames",
+      "TargetLocale": "ru-RU",
+      "When": { "ShaneFemale": true },
+      "Entries": { "Shane": "{{ShaneNameNom}}" }
+    }
+  ]
+}

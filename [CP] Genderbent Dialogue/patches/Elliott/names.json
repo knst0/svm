@@ -1,0 +1,20 @@
+{
+  "Changes": [
+    {
+      "LogName": "ElliottFemale display name [EN] Strings/NPCNames",
+      "Action": "EditData",
+      "Target": "Strings/NPCNames",
+      "TargetLocale": "",
+      "When": { "ElliottFemale": true },
+      "Entries": { "Elliott": "{{ElliottName}}" }
+    },
+    {
+      "LogName": "ElliottFemale display name [RU] Strings/NPCNames",
+      "Action": "EditData",
+      "Target": "Strings/NPCNames",
+      "TargetLocale": "ru-RU",
+      "When": { "ElliottFemale": true },
+      "Entries": { "Elliott": "{{ElliottNameNom}}" }
+    }
+  ]
+}

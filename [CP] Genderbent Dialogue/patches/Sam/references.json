@@ -9,8 +9,8 @@
         "SamFemale": true
       },
       "Entries": {
-        "dating_Sam": "Hey, I heard you and Sam got together... She's a really good girl!$h#$e#We've been friends for a long time. You'd better be good to her, or you'll see my bad side!",
-        "married_Sam": "Haha... I can't believe Sam is a married woman, now. Who would've thought?$h#$e#Joking aside, I think she'll make a great mother some day."
+        "dating_Sam": "Hey, I heard you and {{SamName}} got together... She's a really good girl!$h#$e#We've been friends for a long time. You'd better be good to her, or you'll see my bad side!",
+        "married_Sam": "Haha... I can't believe {{SamName}} is a married woman, now. Who would've thought?$h#$e#Joking aside, I think she'll make a great mother some day."
       }
     },
     {
@@ -22,8 +22,8 @@
         "SamFemale": true
       },
       "Entries": {
-        "dating_Sam": "Эй, я слышала, ты теперь с Сэмом... Она такая хорошая!$h#$e#Мы с ней давно дружим. Так что не обижай ее, а не то познакомишься с моей сердитой стороной!",
-        "married_Sam": "Ха-ха. Поверить не могу, что Сэм теперь в браке. Кто бы мог подумать?$h#$e#А если серьезно, уверена, что однажды она станет отличной матерью."
+        "dating_Sam": "Эй, я слышала, ты теперь с {{SamNameIns}}... Она такая хорошая!$h#$e#Мы с ней давно дружим. Так что не обижай ее, а не то познакомишься с моей сердитой стороной!",
+        "married_Sam": "Ха-ха. Поверить не могу, что {{SamNameNom}} теперь в браке. Кто бы мог подумать?$h#$e#А если серьезно, уверена, что однажды она станет отличной матерью."
       }
     },
     {
@@ -35,7 +35,7 @@
         "SamFemale": true
       },
       "Entries": {
-        "married_Sam": "Поздравляю, @. Сэм очень веселая, уверена, что вы с ней не соскучитесь!"
+        "married_Sam": "Поздравляю, @. {{SamNameNom}} очень веселая, уверена, что вы с ней не соскучитесь!"
       }
     },
     {
@@ -59,11 +59,11 @@
         "SamFemale": true
       },
       "Entries": {
-        "Thu6": "Where does all the time go? *sigh*#$e#I remember when Sam was a little baby wearing diapers. She was such a cute little kid.$s#$e#Don't tell her I said that.$h#$e#You must really like talking to me, huh?",
-        "fall_Thu": "Maybe I've spoiled the kids a bit. They've never had to do any chores.#$e#I guess I want them to be able to enjoy their childhood while they still can. Well, Sam's basically a woman now, though.#$b#I hope she hasn't grown up to be lazy. That won't do.$s#$e#Being a parent isn't very easy.",
-        "fall_Thu_inlaw_Sam": "Is Sam just bumming around the farm, or is she contributing?",
-        "winter_Thu": "Sam makes a lot of noise with that music of hers. I hope it doesn't disturb the neighbors.",
-        "winter_Thu_inlaw_Sam": "How's Sam doing? I have to admit, there's less cooking and cleaning to do since she moved out..."
+        "Thu6": "Where does all the time go? *sigh*#$e#I remember when {{SamName}} was a little baby wearing diapers. She was such a cute little kid.$s#$e#Don't tell her I said that.$h#$e#You must really like talking to me, huh?",
+        "fall_Thu": "Maybe I've spoiled the kids a bit. They've never had to do any chores.#$e#I guess I want them to be able to enjoy their childhood while they still can. Well, {{SamName}}'s basically a woman now, though.#$b#I hope she hasn't grown up to be lazy. That won't do.$s#$e#Being a parent isn't very easy.",
+        "fall_Thu_inlaw_Sam": "Is {{SamName}} just bumming around the farm, or is she contributing?",
+        "winter_Thu": "{{SamName}} makes a lot of noise with that music of hers. I hope it doesn't disturb the neighbors.",
+        "winter_Thu_inlaw_Sam": "How's {{SamName}} doing? I have to admit, there's less cooking and cleaning to do since she moved out..."
       }
     },
     {
@@ -75,11 +75,11 @@
         "SamFemale": true
       },
       "Entries": {
-        "dating_Sam_memory_oneday": "Слышала о вас с Сэмом. Надеюсь, она не доставит тебе проблем!$h",
-        "Thu6": "Куда летит время? Ох...#$e#Помню, когда Сэм еще была маленькой и в подгузниках. Она была такой миленькой малышкой.$s#$e#Только не говори ей, что я такое сказала.$h#$e#Кажется, тебе очень нравится со мной разговаривать, да?",
+        "dating_Sam_memory_oneday": "Слышала о вас с {{SamNameIns}}. Надеюсь, она не доставит тебе проблем!$h",
+        "Thu6": "Куда летит время? Ох...#$e#Помню, когда {{SamNameNom}} еще была маленькой и в подгузниках. Она была такой миленькой малышкой.$s#$e#Только не говори ей, что я такое сказала.$h#$e#Кажется, тебе очень нравится со мной разговаривать, да?",
         "summer_Tue_inlaw_Sam": "Как там поживает моя малышка Сэмми на старой ферме?$h",
-        "fall_Thu": "Может, я немного избаловала детей. Я никогда не заставляла их работать по дому.#$e#Наверное, я хочу, чтобы они наслаждались детством, пока еще есть время. Ну, Сэм уже практически взрослая женщина.#$b#Надеюсь, я не вырастила ее ленивой. Так дело не пойдет.$s#$e#Быть матерью не так-то просто.",
-        "winter_Thu_inlaw_Sam": "Как дела у Сэма? Должна признать, когда она переехала, готовки и уборки стало меньше..."
+        "fall_Thu": "Может, я немного избаловала детей. Я никогда не заставляла их работать по дому.#$e#Наверное, я хочу, чтобы они наслаждались детством, пока еще есть время. Ну, {{SamNameNom}} уже практически взрослая женщина.#$b#Надеюсь, я не вырастила ее ленивой. Так дело не пойдет.$s#$e#Быть матерью не так-то просто.",
+        "winter_Thu_inlaw_Sam": "Как дела у {{SamNameGen}}? Должна признать, когда она переехала, готовки и уборки стало меньше..."
       }
     },
     {
@@ -91,7 +91,7 @@
         "SamFemale": true
       },
       "Entries": {
-        "Thu6": "#$1 Kent1#I've been up since 4 o'clock... sometimes I wonder if I'll ever get back into a normal routine.$k#$e#Sam has really grown up since I left. She's a woman now.#$e#I wish I could've been there for her.$s"
+        "Thu6": "#$1 Kent1#I've been up since 4 o'clock... sometimes I wonder if I'll ever get back into a normal routine.$k#$e#{{SamName}} has really grown up since I left. She's a woman now.#$e#I wish I could've been there for her.$s"
       }
     },
     {
@@ -103,7 +103,7 @@
         "SamFemale": true
       },
       "Entries": {
-        "Thu6": "#$1 Kent1#Я проснулся в 4 утра... Мне бывает интересно, смогу ли я вообще вернуться к обычному распорядку дня.$k#$e#Сэм так выросла в мое отсутствие. Она теперь женщина.#$e#Хотел бы я быть с ней рядом все то время, что она росла.$s"
+        "Thu6": "#$1 Kent1#Я проснулся в 4 утра... Мне бывает интересно, смогу ли я вообще вернуться к обычному распорядку дня.$k#$e#{{SamNameNom}} так выросла в мое отсутствие. Она теперь женщина.#$e#Хотел бы я быть с ней рядом все то время, что она росла.$s"
       }
     },
     {
@@ -115,7 +115,7 @@
         "SamFemale": true
       },
       "Entries": {
-        "Tue6": "Sam's really outgoing, so when we hang out she does most of the talking.#$b#That's fine with me!||Imagine if Sam was as reserved as I am... we'd hang out and never say a word.$h||Some people are talkers, others are listeners. I'm more of a listener."
+        "Tue6": "{{SamName}}'s really outgoing, so when we hang out she does most of the talking.#$b#That's fine with me!||Imagine if {{SamName}} was as reserved as I am... we'd hang out and never say a word.$h||Some people are talkers, others are listeners. I'm more of a listener."
       }
     },
     {
@@ -127,9 +127,9 @@
         "SamFemale": true
       },
       "Entries": {
-        "Tue6": "Сэм очень общительная, так что, когда мы гуляем, говорит в основном она.#$b#Я не против!||Представь, если бы Сэм была такой же закрытой, как я... гуляли бы в тишине.$h||Кто-то говорит, а кто-то слушает. Я больше слушать люблю.",
-        "Wed2": "Пожалуй, Сэм — моя единственная подруга в этом городе.#$e#Ну, Эбби-то тоже ничего, но...$h#$e#Эм... Забудь.",
-        "Wed2_inlaw_Abigail": "Пожалуй, во всем городе моей единственной подругой осталась Сэм..."
+        "Tue6": "{{SamNameNom}} очень общительная, так что, когда мы гуляем, говорит в основном она.#$b#Я не против!||Представь, если бы {{SamNameNom}} была такой же закрытой, как я... гуляли бы в тишине.$h||Кто-то говорит, а кто-то слушает. Я больше слушать люблю.",
+        "Wed2": "Пожалуй, {{SamNameNom}} — моя единственная подруга в этом городе.#$e#Ну, Эбби-то тоже ничего, но...$h#$e#Эм... Забудь.",
+        "Wed2_inlaw_Abigail": "Пожалуй, во всем городе моей единственной подругой осталась {{SamNameNom}}..."
       }
     },
     {
@@ -141,7 +141,7 @@
         "SamFemale": true
       },
       "Entries": {
-        "fall_15": "The Stardew Valley Fair is a little crowded for my tastes... but I'll just hang out with Sam. It'll be good to catch up with her.#$e#You should play some carnival games, though! Don't worry about me.$7"
+        "fall_15": "The Stardew Valley Fair is a little crowded for my tastes... but I'll just hang out with {{SamName}}. It'll be good to catch up with her.#$e#You should play some carnival games, though! Don't worry about me.$7"
       }
     },
     {
@@ -153,7 +153,7 @@
         "SamFemale": true
       },
       "Entries": {
-        "fall_15": "На ярмарке обычно слишком много людей... Но я просто буду торчать с Сэмом. Будет неплохо узнать, как там у нее дела.#$e#Но ты поиграй в какие-нибудь игры на празднике! За меня не волнуйся.$7"
+        "fall_15": "На ярмарке обычно слишком много людей... Но я просто буду торчать с {{SamNameIns}}. Будет неплохо узнать, как там у нее дела.#$e#Но ты поиграй в какие-нибудь игры на празднике! За меня не волнуйся.$7"
       }
     },
     {
@@ -165,7 +165,7 @@
         "SamFemale": true
       },
       "Entries": {
-        "winter_Sebastian": "Интересно, чем там сейчас Сэм занимается? Мы с ней были хорошими друзьями."
+        "winter_Sebastian": "Интересно, чем там сейчас {{SamNameNom}} занимается? Мы с ней были хорошими друзьями."
       }
     }
   ]

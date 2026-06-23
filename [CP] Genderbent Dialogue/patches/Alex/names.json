@@ -1,0 +1,20 @@
+{
+  "Changes": [
+    {
+      "LogName": "AlexFemale display name [EN] Strings/NPCNames",
+      "Action": "EditData",
+      "Target": "Strings/NPCNames",
+      "TargetLocale": "",
+      "When": { "AlexFemale": true },
+      "Entries": { "Alex": "{{AlexName}}" }
+    },
+    {
+      "LogName": "AlexFemale display name [RU] Strings/NPCNames",
+      "Action": "EditData",
+      "Target": "Strings/NPCNames",
+      "TargetLocale": "ru-RU",
+      "When": { "AlexFemale": true },
+      "Entries": { "Alex": "{{AlexNameNom}}" }
+    }
+  ]
+}

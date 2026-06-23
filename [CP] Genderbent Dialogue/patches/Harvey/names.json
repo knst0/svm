@@ -1,0 +1,20 @@
+{
+  "Changes": [
+    {
+      "LogName": "HarveyFemale display name [EN] Strings/NPCNames",
+      "Action": "EditData",
+      "Target": "Strings/NPCNames",
+      "TargetLocale": "",
+      "When": { "HarveyFemale": true },
+      "Entries": { "Harvey": "{{HarveyName}}" }
+    },
+    {
+      "LogName": "HarveyFemale display name [RU] Strings/NPCNames",
+      "Action": "EditData",
+      "Target": "Strings/NPCNames",
+      "TargetLocale": "ru-RU",
+      "When": { "HarveyFemale": true },
+      "Entries": { "Harvey": "{{HarveyNameNom}}" }
+    }
+  ]
+}

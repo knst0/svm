@@ -1,0 +1,20 @@
+{
+  "Changes": [
+    {
+      "LogName": "SamFemale display name [EN] Strings/NPCNames",
+      "Action": "EditData",
+      "Target": "Strings/NPCNames",
+      "TargetLocale": "",
+      "When": { "SamFemale": true },
+      "Entries": { "Sam": "{{SamName}}" }
+    },
+    {
+      "LogName": "SamFemale display name [RU] Strings/NPCNames",
+      "Action": "EditData",
+      "Target": "Strings/NPCNames",
+      "TargetLocale": "ru-RU",
+      "When": { "SamFemale": true },
+      "Entries": { "Sam": "{{SamNameNom}}" }
+    }
+  ]
+}

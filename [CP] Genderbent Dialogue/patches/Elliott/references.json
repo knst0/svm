@@ -9,7 +9,7 @@
         "ElliottFemale": true
       },
       "Entries": {
-        "married_Elliott": "Эллиот такая романтичная... Уверена, теперь в твоей жизни будет столько поэзии!$h"
+        "married_Elliott": "{{ElliottNameNom}} такая романтичная... Уверена, теперь в твоей жизни будет столько поэзии!$h"
       }
     },
     {
@@ -21,7 +21,7 @@
         "ElliottFemale": true
       },
       "Entries": {
-        "event_room1": "Okay... that'll require a great script. Maybe I'll ask Elliott for advice next time I see her at the saloon.$s"
+        "event_room1": "Okay... that'll require a great script. Maybe I'll ask {{ElliottName}} for advice next time I see her at the saloon.$s"
       }
     },
     {
@@ -33,7 +33,7 @@
         "ElliottFemale": true
       },
       "Entries": {
-        "event_room1": "Ладно... Понадобится хороший сценарий. Может, спрошу совета у Эллиота, когда встречу ее в салуне.$s"
+        "event_room1": "Ладно... Понадобится хороший сценарий. Может, спрошу совета у {{ElliottNameGen}}, когда встречу ее в салуне.$s"
       }
     }
   ]

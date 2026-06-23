@@ -24,12 +24,42 @@
     "ShaneFemale": {
       "AllowValues": "true, false",
       "Default": "false"
-    }
+    },
+    "SebastianName": { "Default": "Sebastian" },
+    "SebastianNameNom": { "Default": "Себастиан" },
+    "SebastianNameGen": { "Default": "Себастиана" },
+    "SebastianNameAcc": { "Default": "Себастиана" },
+    "SebastianNameIns": { "Default": "Себастианом" },
+    "ShaneName": { "Default": "Shane" },
+    "ShaneNameNom": { "Default": "Шейн" },
+    "ShaneNameGen": { "Default": "Шейна" },
+    "HarveyName": { "Default": "Harvey" },
+    "HarveyNameNom": { "Default": "Харви" },
+    "HarveyNameGen": { "Default": "Харви" },
+    "AlexName": { "Default": "Alex" },
+    "AlexNameNom": { "Default": "Алекс" },
+    "AlexNameGen": { "Default": "Алекса" },
+    "AlexNameAcc": { "Default": "Алекса" },
+    "AlexNameDat": { "Default": "Алексу" },
+    "AlexNameIns": { "Default": "Алексом" },
+    "ElliottName": { "Default": "Elliott" },
+    "ElliottNameNom": { "Default": "Эллиот" },
+    "ElliottNameGen": { "Default": "Эллиота" },
+    "SamName": { "Default": "Sam" },
+    "SamNameNom": { "Default": "Сэм" },
+    "SamNameGen": { "Default": "Сэма" },
+    "SamNameAcc": { "Default": "Сэма" },
+    "SamNameDat": { "Default": "Сэму" },
+    "SamNameIns": { "Default": "Сэмом" }
   },
   "Changes": [
     {
       "Action": "Include",
       "FromFile": "patches/Sebastian/gender.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "patches/Sebastian/names.json"
     },
     {
       "Action": "Include",
@@ -46,6 +76,10 @@
     {
       "Action": "Include",
       "FromFile": "patches/Shane/gender.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "patches/Shane/names.json"
     },
     {
       "Action": "Include",
@@ -69,6 +103,10 @@
     },
     {
       "Action": "Include",
+      "FromFile": "patches/Harvey/names.json"
+    },
+    {
+      "Action": "Include",
       "FromFile": "patches/Harvey/dialogue.json"
     },
     {
@@ -82,6 +120,10 @@
     {
       "Action": "Include",
       "FromFile": "patches/Alex/gender.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "patches/Alex/names.json"
     },
     {
       "Action": "Include",
@@ -101,6 +143,10 @@
     },
     {
       "Action": "Include",
+      "FromFile": "patches/Elliott/names.json"
+    },
+    {
+      "Action": "Include",
       "FromFile": "patches/Elliott/dialogue.json"
     },
     {
@@ -114,6 +160,10 @@
     {
       "Action": "Include",
       "FromFile": "patches/Sam/gender.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "patches/Sam/names.json"
     },
     {
       "Action": "Include",

@@ -1,0 +1,20 @@
+{
+  "Changes": [
+    {
+      "LogName": "SebastianFemale display name [EN] Strings/NPCNames",
+      "Action": "EditData",
+      "Target": "Strings/NPCNames",
+      "TargetLocale": "",
+      "When": { "SebastianFemale": true },
+      "Entries": { "Sebastian": "{{SebastianName}}" }
+    },
+    {
+      "LogName": "SebastianFemale display name [RU] Strings/NPCNames",
+      "Action": "EditData",
+      "Target": "Strings/NPCNames",
+      "TargetLocale": "ru-RU",
+      "When": { "SebastianFemale": true },
+      "Entries": { "Sebastian": "{{SebastianNameNom}}" }
+    }
+  ]
+}
