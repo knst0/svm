@@ -70,7 +70,7 @@ jobs:
           dest="staging/$(basename "$src")"
           mkdir -p "$dest"
           cp -r "$src/manifest.json" "$src/content.json" "$src/i18n" "$src/patches" "$dest/"
-          for extra in README.md CHANGELOG.md; do
+          for extra in CHANGELOG.md; do
             [ -f "$src/$extra" ] && cp "$src/$extra" "$dest/"
           done
 
