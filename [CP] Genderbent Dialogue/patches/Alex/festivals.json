@@ -1,0 +1,93 @@
+{
+  "Changes": [
+    {
+      "LogName": "AlexFemale regender [ru-RU] Data/Festivals/fall16",
+      "Action": "EditData",
+      "Target": "Data/Festivals/fall16",
+      "TargetLocale": "ru-RU",
+      "When": {
+        "AlexFemale": true
+      },
+      "Entries": {
+        "Alex": "Я переиграла в силомер, и теперь у меня руки будто резиновые.",
+        "Alex_spouse_y2": "Есть хочешь? Тут так много всего — глаза разбегаются!$0#$e#Я уже съела три сэндвича... ммм... этот соус...",
+        "Haley_spouse_y2": "Так забавно видеть, как {{AlexNameNom}} уплетает за обе щеки. У неё все вроде бы неплохо..#$e#Надеюсь, в этом году победа в конкурсе будет нашей!$1"
+      }
+    },
+    {
+      "LogName": "AlexFemale regender [EN] Data/Festivals/fall16",
+      "Action": "EditData",
+      "Target": "Data/Festivals/fall16",
+      "TargetLocale": "",
+      "When": {
+        "AlexFemale": true
+      },
+      "Entries": {
+        "Haley_spouse_y2": "It's a little funny seeing {{AlexName}} stuff her face. She seems to be doing well.#$e#I hope we win the grange display contest this year!$1"
+      }
+    },
+    {
+      "LogName": "AlexFemale regender [ru-RU] Data/Festivals/fall27",
+      "Action": "EditData",
+      "Target": "Data/Festivals/fall27",
+      "TargetLocale": "ru-RU",
+      "When": {
+        "AlexFemale": true
+      },
+      "Entries": {
+        "Alex_y2": "Кажется, я слышала женский крик... Я должна помочь!$0"
+      }
+    },
+    {
+      "LogName": "AlexFemale regender [ru-RU] Data/Festivals/spring13",
+      "Action": "EditData",
+      "Target": "Data/Festivals/spring13",
+      "TargetLocale": "ru-RU",
+      "When": {
+        "AlexFemale": true
+      },
+      "Entries": {
+        "Alex_spouse": "Уф... Кажется, я съела лишнюю дюжину яиц вкрутую...$s"
+      }
+    },
+    {
+      "LogName": "AlexFemale regender [ru-RU] Data/Festivals/summer11",
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer11",
+      "TargetLocale": "ru-RU",
+      "When": {
+        "AlexFemale": true
+      },
+      "Entries": {
+        "Alex_spouse": "Я всегда рада поводу поторчать на пляже. Погода сегодня отличная!",
+        "Alex_y2": "Как думаешь, если я зайду в воду, остальные последуют моему примеру? Не очень-то хочется плавать одной!$0"
+      }
+    },
+    {
+      "LogName": "AlexFemale regender [ru-RU] Data/Festivals/winter25",
+      "Action": "EditData",
+      "Target": "Data/Festivals/winter25",
+      "TargetLocale": "ru-RU",
+      "When": {
+        "AlexFemale": true
+      },
+      "Entries": {
+        "Alex_spouse": "За что я благодарна? Покажу, когда вернемся домой...$l",
+        "Alex_y2": "Я прямо уверена, что под деревом духов лежит подарок в форме мяча для гридбола с моим именем.$1"
+      }
+    },
+    {
+      "LogName": "AlexFemale regender [ru-RU] Data/Festivals/winter8",
+      "Action": "EditData",
+      "Target": "Data/Festivals/winter8",
+      "TargetLocale": "ru-RU",
+      "When": {
+        "AlexFemale": true
+      },
+      "Entries": {
+        "Alex_y2": "Как думаешь, никто не будет против, если я окунусь в прорубь после соревнования?#$e#Слышала, что ледяные ванны полезны для мускулов.",
+        "Evelyn_y2": "Никогда не знаешь... Может это последний снеговик, которого я леплю с {{AlexNameIns}}.#$e#Жизнь коротка, ${дорогой^дорогая}$. Цени каждый ее момент."
+      }
+    }
+  ]
+}

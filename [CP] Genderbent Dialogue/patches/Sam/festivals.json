@@ -1,0 +1,56 @@
+{
+  "Changes": [
+    {
+      "LogName": "SamFemale regender [ru-RU] Data/Festivals/fall16",
+      "Action": "EditData",
+      "Target": "Data/Festivals/fall16",
+      "TargetLocale": "ru-RU",
+      "When": {
+        "SamFemale": true
+      },
+      "Entries": {
+        "Sam_y2": "Уф... Я проиграла все на колесе...$2#$e#Нужно было ставить на зеленое.$0"
+      }
+    },
+    {
+      "LogName": "SamFemale regender [ru-RU] Data/Festivals/fall27",
+      "Action": "EditData",
+      "Target": "Data/Festivals/fall27",
+      "TargetLocale": "ru-RU",
+      "When": {
+        "SamFemale": true
+      },
+      "Entries": {
+        "Sam_spouse": "Эй, а я как раз ждала, когда ты появишься!$h",
+        "Sam": "Странно... Впереди просто тупик.#$e#Но я готова поклясться, что впереди меня кто-то был. Куда же они подевались?",
+        "Jodi_y2": "{{SamNameNom}} взяла Винсента в лабиринт. Надеюсь, с ними все в порядке...$0"
+      }
+    },
+    {
+      "LogName": "SamFemale regender [ru-RU] Data/Festivals/summer11",
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer11",
+      "TargetLocale": "ru-RU",
+      "When": {
+        "SamFemale": true
+      },
+      "Entries": {
+        "Sebastian": "Однажды {{SamNameNom}} высыпала полкило анчоусов в общий котел.#$e#А как ты думаешь, почему {{SamNameNom}} больше всех в городе была на общественных работах?$h"
+      }
+    },
+    {
+      "LogName": "SamFemale regender [ru-RU] Data/Festivals/winter25",
+      "Action": "EditData",
+      "Target": "Data/Festivals/winter25",
+      "TargetLocale": "ru-RU",
+      "When": {
+        "SamFemale": true
+      },
+      "Entries": {
+        "Sam_spouse": "*зевает*... Я пришла только ради печенек и подарков.$h",
+        "Sam_spouse_y2": "Даже весело смотреть на то, как все разворачивают свои подарки... Смотреть на их реакции.$h#$e#О да, я и тебе кое-что приготовила. Я, эм... покажу, когда вернемся на ферму!$10",
+        "Sam": "Я благодарна за гитару и скейтборд. А, ну и за свою семью, наверное."
+      }
+    }
+  ]
+}

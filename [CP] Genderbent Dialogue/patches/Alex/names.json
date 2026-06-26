@@ -1,20 +1,19 @@
 {
   "Changes": [
     {
-      "LogName": "AlexFemale display name [EN] Strings/NPCNames",
+      "LogName": "AlexFemale display name [EN] Data/Characters",
       "Action": "EditData",
-      "Target": "Strings/NPCNames",
-      "TargetLocale": "",
-      "When": { "AlexFemale": true },
-      "Entries": { "Alex": "{{AlexName}}" }
+      "Target": "Data/Characters",
+      "Fields": { "Alex": { "DisplayName": "{{AlexName}}" } },
+      "When": { "AlexFemale": true }
     },
     {
-      "LogName": "AlexFemale display name [RU] Strings/NPCNames",
+      "LogName": "AlexFemale display name [RU] Data/Characters",
       "Action": "EditData",
-      "Target": "Strings/NPCNames",
+      "Target": "Data/Characters",
       "TargetLocale": "ru-RU",
-      "When": { "AlexFemale": true },
-      "Entries": { "Alex": "{{AlexNameNom}}" }
+      "Fields": { "Alex": { "DisplayName": "{{AlexNameNom}}" } },
+      "When": { "AlexFemale": true }
     }
   ]
 }

@@ -10,7 +10,8 @@
       },
       "Entries": {
         "GreenRain": "George, dear... Is this the end? It's been a good life, but I'd like to see {{AlexName}} find her way before departing...$s%noturn",
-        "fall_Sat": "Are you friends with {{AlexName}}?#$e#Sometime she worries me sick."
+        "fall_Sat": "Are you friends with {{AlexName}}?#$e#Sometime she worries me sick.",
+        "summer_Mon_inlaw_Alex": "How's my granddaughter doing? I imagine she's quite happy living on the farm.#$e#She deserves to be happy... she's a good girl."
       }
     },
     {
@@ -23,7 +24,8 @@
       },
       "Entries": {
         "GreenRain": "Джордж, дорогой... Это конец? У нас была хорошая жизнь, но я бы хотела, чтобы {{AlexNameNom}} нашла себя до того, как я уйду...$s%noturn",
-        "fall_Sat": "Вы с {{AlexNameIns}} дружите?#$e#Иногда я за нее так волнуюсь."
+        "fall_Sat": "Вы с {{AlexNameIns}} дружите?#$e#Иногда я за нее так волнуюсь.",
+        "summer_Mon_inlaw_Alex": "Как там моя внучка? Поди, счастлива жить на ферме.#$e#Она заслужила быть счастливой... Она славная девочка."
       }
     },
     {
@@ -35,7 +37,9 @@
         "AlexFemale": true
       },
       "Entries": {
-        "Wed": "{{AlexName}} is my granddaughter. Have I told you that already?#$e#Huh? Speak up."
+        "Wed": "{{AlexName}} is my granddaughter. Have I told you that already?#$e#Huh? Speak up.",
+        "Wed_inlaw_Alex": "How can two men get married? It's unnatural... Hmmph. I guess I'm just \"old fashioned\"...^You're part of the family, now. I'm glad that my granddaughter found such a nice wife.",
+        "Wed8": "I wish my legs worked so I could play catch with {{AlexName}}.$s#$e#That'll never happen.$s"
       }
     },
     {
@@ -47,7 +51,9 @@
         "AlexFemale": true
       },
       "Entries": {
-        "Wed": "{{AlexNameNom}} — моя внучка. Я тебе еще не говорил?#$e#А? Говори громче."
+        "Wed": "{{AlexNameNom}} — моя внучка. Я тебе еще не говорил?#$e#А? Говори громче.",
+        "Wed_inlaw_Alex": "Как могут двое мужчин сочетаться браком? Это неестественно... Хм-мф. Наверное, я просто «старомодный»...^Ты теперь часть семьи. Я рад, что моя внучка нашла себе такую красавицу-жену.",
+        "Wed8": "Хотел бы я, чтобы ноги у меня заработали, и чтобы я смог покидать мяч с {{AlexNameIns}}.$s#$e#Этого никогда не случится.$s"
       }
     },
     {
@@ -60,7 +66,8 @@
       },
       "Entries": {
         "Event_room1": "Her? No!#$b#...Well, I guess I used to like {{AlexName}}. But not anymore! She's immature.",
-        "winter_Sun6": "Um, if you see {{AlexName}} could you tell her I'm busy today?#$e#Thanks."
+        "winter_Sun6": "Um, if you see {{AlexName}} could you tell her I'm busy today?#$e#Thanks.",
+        "winter_Sun": "Will you say hi to {{AlexName}} for me?#$e#Thanks."
       }
     },
     {
@@ -73,7 +80,56 @@
       },
       "Entries": {
         "Event_room1": "Кто? Нет!#$b#... Ну, раньше-то {{AlexNameNom}} мне нравилась. Но теперь уже нет! Она такая несерьезная.",
-        "winter_Sun6": "Эм, если встретишь {{AlexNameAcc}}, можешь сказать ей, что я сегодня занята?#$e#Спасибо."
+        "winter_Sun6": "Эм, если встретишь {{AlexNameAcc}}, можешь сказать ей, что я сегодня занята?#$e#Спасибо.",
+        "winter_Sun": "Передашь {{AlexNameDat}} от меня привет?#$e#Спасибо."
+      }
+    },
+    {
+      "LogName": "AlexFemale ref [ru-RU] Characters/Dialogue/Pam",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Pam",
+      "TargetLocale": "ru-RU",
+      "When": {
+        "AlexFemale": true
+      },
+      "Entries": {
+        "married_Alex": "Сыграли свадьбу с Маллнеровской девчонкой, да?#$b#Вонючую собаку тоже с собой заберете?"
+      }
+    },
+    {
+      "LogName": "AlexFemale ref [EN] Characters/Dialogue/Pam",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Pam",
+      "TargetLocale": "",
+      "When": {
+        "AlexFemale": true
+      },
+      "Entries": {
+        "married_Alex": "So, you married the Mullner girl, huh?#$b#Will you be takin' that smelly old dog with ya, too?"
+      }
+    },
+    {
+      "LogName": "AlexFemale ref [RU] Data/mail joshMessage",
+      "Action": "EditData",
+      "Target": "Data/mail",
+      "TargetLocale": "ru-RU",
+      "When": {
+        "AlexFemale": true
+      },
+      "Entries": {
+        "joshMessage": "@,^приходи сегодня вечером в салун. ^   -Алекс[#]Приглашение от {{AlexNameGen}}"
+      }
+    },
+    {
+      "LogName": "AlexFemale ref [RU] Strings/StringsFromCSFiles MapPage",
+      "Action": "EditData",
+      "Target": "Strings/StringsFromCSFiles",
+      "TargetLocale": "ru-RU",
+      "When": {
+        "AlexFemale": true
+      },
+      "Entries": {
+        "MapPage.cs.11093": "Дом Джорджа, Эвелин и {{AlexNameGen}}"
       }
     }
   ]

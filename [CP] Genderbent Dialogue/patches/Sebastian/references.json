@@ -11,7 +11,9 @@
       "Entries": {
         "Fri": "You've met my daughter {{SebastianName}}, right? She lives downstairs.#$e#She's a little shy, but I'm sure she'll warm up to you if you're nice to her.",
         "Fri4": "#$1 RobinSeb#I found an ashtray in {{SebastianName}}'s room, and it smelled really weird. Should I be worried about this?#$e#Sometimes I worry about {{SebastianName}}... she doesn't have many friends and doesn't really seem to care about her future very much...#$e#I would talk to her about it but she never opens up to me.",
-        "Fri4_inlaw_Sebastian": "{{SebastianName}} told me she's trying to quit smoking! I'm really proud of her."
+        "Fri4_inlaw_Sebastian": "{{SebastianName}} told me she's trying to quit smoking! I'm really proud of her.",
+        "divorced_Sebastian": "{{SebastianName}}'s back in the basement... what happened between you two?$s",
+        "Fri_inlaw_Sebastian": "I miss my Sebby... she was always a little misunderstood, but I believed in her."
       }
     },
     {
@@ -26,7 +28,9 @@
         "married_Sebastian": "О, не переживай... это слезы радости. Я знаю, что {{SebastianNameNom}} будет счастлива с тобой на ферме «%farm»!$h",
         "Fri": "Вы же с {{SebastianNameIns}} уже знакомы, да? Она живет внизу.#$e#Она немного стеснительная, но если быть с ней добрее, то она к тебе потянется.",
         "Fri4": "#$1 RobinSeb#Я нашла у {{SebastianNameGen}} в комнате пепельницу, от которой очень странно пахло. Стоит ли мне об этом волноваться?#$e#Иногда я волнуюсь за {{SebastianNameAcc}}... Друзей у нее немного, и о будущем своем она не очень-то заботится...#$e#Я бы с ней поговорила, но она никогда мне не открывается.",
-        "Fri4_inlaw_Sebastian": "{{SebastianNameNom}} сказал мне, что бросает курить! Я так ею горжусь."
+        "Fri4_inlaw_Sebastian": "{{SebastianNameNom}} сказала мне, что бросает курить! Я так ею горжусь.",
+        "divorced_Sebastian": "{{SebastianNameNom}} вернулась в свой подвал... Что между вами произошло?$s",
+        "Fri_inlaw_Sebastian": "Я скучаю по своему Себби... Её часто понимали неправильно, но я в неё верила."
       }
     },
     {
@@ -51,7 +55,7 @@
         "SebastianFemale": true
       },
       "Entries": {
-        "eventSeen_2_memory_oneday": "{{SebastianNameNom}} упоминал, что на днях слышала странную музыку за ужином...#$e#Я не сказала, что это были мы! Подумала, лучше держать это в тайне.$h",
+        "eventSeen_2_memory_oneday": "{{SebastianNameNom}} упоминала, что на днях слышала странную музыку за ужином...#$e#Я не сказала, что это были мы! Подумала, лучше держать это в тайне.$h",
         "married_Sebastian": "Поздравляю с браком. Получается, теперь {{SebastianNameNom}} не переедет в город, как она всегда говорила.$6#$b#Это ничего. Я бы расстроилась, если бы мы больше не увиделись. Мы с ней хорошие друзья.$6"
       }
     },

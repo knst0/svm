@@ -23,7 +23,7 @@
         "Thu8": "#$1 elliottApol#Здесь, на пляже, немного одиноко... Потому я прошу прощения, если я была слишком пряма при нашей первой встрече. Мне лишь очень сильно хотелось иметь друга.$k#$e#Очень приятно иметь такого близкого друга, как ты.",
         "Sun6": "О, @! Я как раз надеялась тебя увидеть.#$e#Всегда приятно встретиться с тобой.$h",
         "event_idea3": "Ни за что бы не догадалась! Полагаю, даже люди самых «приземленных» профессий иногда любят помечтать о звездах.$h#$b#Я это запомню.",
-        "event_boat1": "... Я боялась, что ты не сможешь почувствовать такое к другому мужчине.$l^И для меня тоже.$l",
+        "event_boat1": "... Я боялась, что ты не сможешь почувствовать такое к другой женщине.$l^И для меня тоже.$l",
         "summer_Mon": "Сегодня утром меня разбудил нежный солнечный лучик. Никогда еще не чувствовала себя так свежо.$u#$e#Прости, если тебе это неинтересно.",
         "summer_Mon4": "Я знаю, что немного \"чудаковата\".#$e#Надеюсь, тебя это не беспокоит.$h",
         "summer_Tue": "Я нашла немного прекрасных ракушек перед своим домом.#$e#Полагаю, редкие их разновидности весьма ценны.",
@@ -32,7 +32,8 @@
         "fall_Fri4": "У меня затекли ноги, я всю ночь сидела за письменным столом.$s#$e#Иногда я завидую тебе, @.",
         "fall_Fri": "У меня затекли ноги, я все утро сидела за письменным столом.$s",
         "winter_Thu6": "Сделай глубокий вдох. Чувствуешь? Это запах моря.#$e#Каждый раз, когда я чую запах моря, я вспоминаю о юности. Когда я была ребенком, океан меня очень впечатлил.",
-        "winter_Fri": "Мне приходится ежедневно расчесывать волосы, иначе они собьются в колтуны.#$e#Это большой труд.#$e#Я удивлена, как я до сих пор не сбрила их в сердцах.$h#$e#Полагаю, я слишком для этого тщеславна."
+        "winter_Fri": "Мне приходится ежедневно расчесывать волосы, иначе они собьются в колтуны.#$e#Это большой труд.#$e#Я удивлена, как я до сих пор не сбрила их в сердцах.$h#$e#Полагаю, я слишком для этого тщеславна.",
+        "Thu4": "В последнее время я полна надежд. Быть может, это из-за перемены погоды."
       }
     },
     {
@@ -106,7 +107,9 @@
         "elliottLetter3": "My sweet @,^^Last night in Zuzu City was quite the experience! It seems there's a large literary scene here... a few dozen people showed up at my reading!^^I even signed a couple of autographs... it's strange to be seen as someone important. It's all a matter of framing, a grand illusion... for truly I am no one special. Only your devoted {{ElliottName}}, as always.^^Currently I'm alone, in my hotel room, 'ingesting' a Joja Value Meal...^^Should this be called 'food'?^Or 'edible matter'?^I needn't long brood^It must be the latter^^I look forward to returning home soon. Hope you enjoyed the crab cakes.^^-Love, {{ElliottName}} %item conversationTopic ElliottGone4 0 %%[#]Letter From My Wife 3",
         "elliottLetter4": "In dreams, when graced with lofty view^I gaze upon the sunlit sea^What distant shores I've traveled to^But time now clouds my memory^^There is but one eternal place^Where I shall someday pass beyond^In Valley dear, where my love waits:^Our little home beside the pond^^-{{ElliottName}} %item conversationTopic ElliottGone5 0 %%[#]Letter From My Wife 4",
         "elliottLetter5": "My dear @,^^I won't bore you with any more details about my readings. They are mostly the same.^^I'm sure your time has been much more exciting! I can't wait to return and see what progress has been made.^^On these long travels between towns, I amuse myself by closing my eyes and envisioning the farm... I see kegs pulsing with sweet wine, a furnace ablaze with precious ore, and our little kitchen with the smell of cinnamon and nutmeg. There's a lot to enjoy!^^Just don't stay out too late in the mines, my love. It's dangerous in there! If you must go... bring plenty of food.^^-Love, {{ElliottName}} %item conversationTopic ElliottGone6 0 %%[#]Letter From My Wife 5",
-        "elliottLetter6": "My dear @,^^This will be my last letter before I return home. I've had a fine trip... though nothing too exciting. It's been nice to meet people who enjoy my work, but I'm eager to return home.^^I look forward to the comfort of our little house, the satisfying farm work, a home-cooked meal, and most of all, cozying into the flannel sheets with you.^^See you soon!^-Love, {{ElliottName}} %item conversationTopic ElliottGone7 0 %%[#]Letter From My Wife 6"
+        "elliottLetter6": "My dear @,^^This will be my last letter before I return home. I've had a fine trip... though nothing too exciting. It's been nice to meet people who enjoy my work, but I'm eager to return home.^^I look forward to the comfort of our little house, the satisfying farm work, a home-cooked meal, and most of all, cozying into the flannel sheets with you.^^See you soon!^-Love, {{ElliottName}} %item conversationTopic ElliottGone7 0 %%[#]Letter From My Wife 6",
+        "elliottReading": "@,^I have great news... my novel is finished!! I'm giving a public reading this afternoon at the library. Hope to see you there! ^   -{{ElliottName}}[#]{{ElliottName}}'s Reading",
+        "elliottBoat": "Meet me at the docks on a sunny morning. I've got something in mind. ^   -{{ElliottName}}[#]{{ElliottName}}'s Note"
       }
     },
     {
@@ -124,7 +127,20 @@
         "elliottLetter3": "@, радость моя,^^Мое вчерашнее выступление в городе Зузу было потрясающим опытом! Похоже, тут литературу ценят побольше, так что пришло довольно много народа!^^Я даже подписала несколько книг... так странно, что кто-то считает это важным. Но ведь это все лишь видимость, искусственный конструкт... я же простой человек. Всего лишь твоя любимая {{ElliottNameNom}}.^^Сейчас я одна в номере, «поглощаю» сытный обед Джоджа...^^Как вообще можно такое «едой» называть?^Или это больше «съедобная материя»?^Не буду даже думать об этом.^Наверное, все же, второе.^^Очень хочу вернуться домой. Надеюсь, тебе понравились крабовые котлетки.^^-С любовью, {{ElliottNameNom}} %item conversationTopic ElliottGone4 0 %%[#]Письмо от жены 3",
         "elliottLetter4": "Во снах, где взгляд я наполняла^Закатным морем, вспоминаю,^О берегах, где я бывала,^ Но время память затмевает.^^Из вечных мест одно лишь вновь^Я вспомню, в нем же вечность встречу:^В долине милой ждет любовь^У дома с прудом в летний вечер.^^-{{ElliottNameNom}} %item conversationTopic ElliottGone5 0 %%[#]Письмо от жены 4",
         "elliottLetter5": "${Мой дорогой^Моя дорогая}$ @,^^Не буду утомлять тебя рассказами о моих чтениях. Они все одинаковые.^^Уверена, у тебя там намного веселее! Не могу дождаться, когда вернусь и увижу, как похорошела ферма.^^Во время долгих переездов между городами я закрываю глаза и представляю ее... Мне видятся бочки, полные вина, кузнечная печь с ценными металлами и наша кухонька, где пахнет корицей и мускатным орехом. Так много всего прекрасного!^^Только не засиживайся в шахтах, любовь моя. Там опасно! А мне пора... Привезу много еды.^^-С любовью, {{ElliottNameNom}} %item conversationTopic ElliottGone6 0 %%[#]Письмо от жены 5",
-        "elliottLetter6": "@, любовь моя,^^Это последнее письмо из поездки, а потом я сразу поеду домой. Поездка была неплохая... но не особо впечатляющая. Было приятно познакомиться с людьми, которые ценят твой труд, но уж очень я хочу домой.^^С нетерпением жду того, как вернусь в уют наших стен, к работе на природе, домашней еде и любви всей моей жизни — тебе. Не могу дождаться, когда мы снова будем кутаться во фланелевых простынях.^^До скорого!^-С любовью, {{ElliottNameNom}} %item conversationTopic ElliottGone7 0 %%[#]Письмо от жены 6"
+        "elliottLetter6": "@, любовь моя,^^Это последнее письмо из поездки, а потом я сразу поеду домой. Поездка была неплохая... но не особо впечатляющая. Было приятно познакомиться с людьми, которые ценят твой труд, но уж очень я хочу домой.^^С нетерпением жду того, как вернусь в уют наших стен, к работе на природе, домашней еде и любви всей моей жизни — тебе. Не могу дождаться, когда мы снова будем кутаться во фланелевых простынях.^^До скорого!^-С любовью, {{ElliottNameNom}} %item conversationTopic ElliottGone7 0 %%[#]Письмо от жены 6",
+        "elliottBoat": "Приходи к докам солнечным утром. Есть у меня одна задумка. ^   -{{ElliottNameNom}}[#]Записка {{ElliottNameGen}}"
+      }
+    },
+    {
+      "LogName": "ElliottFemale regender [EN] Characters/Dialogue/Elliott (event_boat1)",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Elliott",
+      "TargetLocale": "",
+      "When": {
+        "ElliottFemale": true
+      },
+      "Entries": {
+        "event_boat1": "... I was worried you might not feel this way about another woman.$l^So am I.$l"
       }
     }
   ]

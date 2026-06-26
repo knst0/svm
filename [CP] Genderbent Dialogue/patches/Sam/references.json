@@ -39,6 +39,18 @@
       }
     },
     {
+      "LogName": "SamFemale ref [EN] Characters/Dialogue/Vincent",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Vincent",
+      "TargetLocale": "",
+      "When": {
+        "SamFemale": true
+      },
+      "Entries": {
+        "Mon": "I wanna be just like my big sister when I grow up!$h#$e#Okay! Bye!"
+      }
+    },
+    {
       "LogName": "SamFemale ref [RU] Characters/Dialogue/Vincent",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Vincent",
@@ -47,6 +59,7 @@
         "SamFemale": true
       },
       "Entries": {
+        "Mon": "Я хочу вырасти и стать как моя старшая сестрёнка!$h#$e#Ладно! Пока!",
         "married_Sam": "Не забирай мою Сэмми!$s"
       }
     },
@@ -63,7 +76,8 @@
         "fall_Thu": "Maybe I've spoiled the kids a bit. They've never had to do any chores.#$e#I guess I want them to be able to enjoy their childhood while they still can. Well, {{SamName}}'s basically a woman now, though.#$b#I hope she hasn't grown up to be lazy. That won't do.$s#$e#Being a parent isn't very easy.",
         "fall_Thu_inlaw_Sam": "Is {{SamName}} just bumming around the farm, or is she contributing?",
         "winter_Thu": "{{SamName}} makes a lot of noise with that music of hers. I hope it doesn't disturb the neighbors.",
-        "winter_Thu_inlaw_Sam": "How's {{SamName}} doing? I have to admit, there's less cooking and cleaning to do since she moved out..."
+        "winter_Thu_inlaw_Sam": "How's {{SamName}} doing? I have to admit, there's less cooking and cleaning to do since she moved out...",
+        "dating_Sam_memory_oneday": "I heard about you and Sam. Hopefully she won't cause you any trouble!$h"
       }
     },
     {
@@ -91,7 +105,8 @@
         "SamFemale": true
       },
       "Entries": {
-        "Thu6": "#$1 Kent1#I've been up since 4 o'clock... sometimes I wonder if I'll ever get back into a normal routine.$k#$e#{{SamName}} has really grown up since I left. She's a woman now.#$e#I wish I could've been there for her.$s"
+        "Thu6": "#$1 Kent1#I've been up since 4 o'clock... sometimes I wonder if I'll ever get back into a normal routine.$k#$e#{{SamName}} has really grown up since I left. She's a woman now.#$e#I wish I could've been there for her.$s",
+        "married_Sam": "It makes a father proud to see his daughter become a woman. You have my heartfelt blessing.$h"
       }
     },
     {
@@ -103,7 +118,8 @@
         "SamFemale": true
       },
       "Entries": {
-        "Thu6": "#$1 Kent1#Я проснулся в 4 утра... Мне бывает интересно, смогу ли я вообще вернуться к обычному распорядку дня.$k#$e#{{SamNameNom}} так выросла в мое отсутствие. Она теперь женщина.#$e#Хотел бы я быть с ней рядом все то время, что она росла.$s"
+        "Thu6": "#$1 Kent1#Я проснулся в 4 утра... Мне бывает интересно, смогу ли я вообще вернуться к обычному распорядку дня.$k#$e#{{SamNameNom}} так выросла в мое отсутствие. Она теперь женщина.#$e#Хотел бы я быть с ней рядом все то время, что она росла.$s",
+        "married_Sam": "Это гордость для отца — видеть, как его дочь становится женщиной. Благословляю тебя от всей души.$h"
       }
     },
     {

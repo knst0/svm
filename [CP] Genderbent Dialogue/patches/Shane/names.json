@@ -1,20 +1,19 @@
 {
   "Changes": [
     {
-      "LogName": "ShaneFemale display name [EN] Strings/NPCNames",
+      "LogName": "ShaneFemale display name [EN] Data/Characters",
       "Action": "EditData",
-      "Target": "Strings/NPCNames",
-      "TargetLocale": "",
-      "When": { "ShaneFemale": true },
-      "Entries": { "Shane": "{{ShaneName}}" }
+      "Target": "Data/Characters",
+      "Fields": { "Shane": { "DisplayName": "{{ShaneName}}" } },
+      "When": { "ShaneFemale": true }
     },
     {
-      "LogName": "ShaneFemale display name [RU] Strings/NPCNames",
+      "LogName": "ShaneFemale display name [RU] Data/Characters",
       "Action": "EditData",
-      "Target": "Strings/NPCNames",
+      "Target": "Data/Characters",
       "TargetLocale": "ru-RU",
-      "When": { "ShaneFemale": true },
-      "Entries": { "Shane": "{{ShaneNameNom}}" }
+      "Fields": { "Shane": { "DisplayName": "{{ShaneNameNom}}" } },
+      "When": { "ShaneFemale": true }
     }
   ]
 }

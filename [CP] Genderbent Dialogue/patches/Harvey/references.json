@@ -38,6 +38,56 @@
         "Event.cs.1068": "Д-р {{HarveyNameNom}} выписала мне счет в {0} з. за мед. услуги.",
         "Event.cs.1070": "Денег у меня нет, но {{HarveyNameNom}} была обязана по закону спасти мне жизнь бесплатно."
       }
+    },
+    {
+      "LogName": "HarveyFemale regender [RU] Data/mail passedOut3",
+      "Action": "EditData",
+      "Target": "Data/mail",
+      "TargetLocale": "ru-RU",
+      "When": {
+        "HarveyFemale": true
+      },
+      "Entries": {
+        "passedOut3_Billed": "@,^Вчера ночью кто-то привез тебя ко мне в клинику. Ты ${потерял^потеряла}$ сознание от переутомления!^Нужно ответственнее относиться к своему здоровью и ложиться спать вовремя.^Я списала {0} з. с твоего счета, чтобы покрыть расходы на лечение.^^-Доктор {{HarveyNameNom}}[#]Счет от доктора {{HarveyNameGen}}",
+        "passedOut3_NotBilled": "@,^Вчера ночью кто-то привез тебя ко мне в клинику. Ты ${потерял^потеряла}$ сознание от переутомления!^Нужно ответственнее относиться к своему здоровью и ложиться спать вовремя.^Раз у тебя нет денег, все медицинские услуги я предоставила бесплатно.^^-Доктор {{HarveyNameNom}}[#]Бесплатные услуги доктора {{HarveyNameGen}}"
+      }
+    },
+    {
+      "LogName": "HarveyFemale ref [EN] Strings/StringsFromCSFiles",
+      "Action": "EditData",
+      "Target": "Strings/StringsFromCSFiles",
+      "TargetLocale": "",
+      "When": {
+        "HarveyFemale": true
+      },
+      "Entries": {
+        "Event.cs.1068": "Dr. {{HarveyName}} charged me {0}g for the hospital visit. ",
+        "Event.cs.1070": "I have no money, but {{HarveyName}} was obligated to save my life free of charge. "
+      }
+    },
+    {
+      "LogName": "HarveyFemale ref [EN] Characters/Dialogue/Emily",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Emily",
+      "TargetLocale": "",
+      "When": {
+        "HarveyFemale": true
+      },
+      "Entries": {
+        "summer_Sat": "Don't overwork yourself or you might end up in {{HarveyName}}'s clinic!"
+      }
+    },
+    {
+      "LogName": "HarveyFemale ref [RU] Characters/Dialogue/Emily",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Emily",
+      "TargetLocale": "ru-RU",
+      "When": {
+        "HarveyFemale": true
+      },
+      "Entries": {
+        "summer_Sat": "Не работай слишком много, иначе закончишь у {{HarveyNameGen}} в клинике!"
+      }
     }
   ]
 }

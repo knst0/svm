@@ -113,6 +113,18 @@
         "Shane": "Привет,^Я подумала, что было бы здорово написать тебе письмо. Правда, не знаю, чего бы написать такого.^ Прилагаю к письму кое-что. Я стянула это из подсобки в ДжоджаМарте когда-то давно, только никому не говори.^Ну, увидимся. ^   -{{ShaneNameNom}} %item id (O)215 1 (O)206 1 %%[#]Подарок от {{ShaneNameGen}}",
         "ShaneCooking": "@,^Я вычитала этот рецепт в одном журнале и подумала, что он интересный. Если вдруг приготовишь по нему, дай и мне попробовать, хе-хе. ^   -{{ShaneNameNom}}%item cookingRecipe %%[#]Рецепт {{ShaneNameGen}}"
       }
+    },
+    {
+      "LogName": "ShaneFemale regender [RU] Characters/Dialogue/MarriageDialogue (generic spouse)",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogue",
+      "TargetLocale": "ru-RU",
+      "When": {
+        "ShaneFemale": true
+      },
+      "Entries": {
+        "Rainy_Night_Shane": "Я только что говорила по телефону с Джас и Марни. Похоже, им там без меня неплохо."
+      }
     }
   ]
 }

@@ -1,20 +1,19 @@
 {
   "Changes": [
     {
-      "LogName": "SamFemale display name [EN] Strings/NPCNames",
+      "LogName": "SamFemale display name [EN] Data/Characters",
       "Action": "EditData",
-      "Target": "Strings/NPCNames",
-      "TargetLocale": "",
-      "When": { "SamFemale": true },
-      "Entries": { "Sam": "{{SamName}}" }
+      "Target": "Data/Characters",
+      "Fields": { "Sam": { "DisplayName": "{{SamName}}" } },
+      "When": { "SamFemale": true }
     },
     {
-      "LogName": "SamFemale display name [RU] Strings/NPCNames",
+      "LogName": "SamFemale display name [RU] Data/Characters",
       "Action": "EditData",
-      "Target": "Strings/NPCNames",
+      "Target": "Data/Characters",
       "TargetLocale": "ru-RU",
-      "When": { "SamFemale": true },
-      "Entries": { "Sam": "{{SamNameNom}}" }
+      "Fields": { "Sam": { "DisplayName": "{{SamNameNom}}" } },
+      "When": { "SamFemale": true }
     }
   ]
 }

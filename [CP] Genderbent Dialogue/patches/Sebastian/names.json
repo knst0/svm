@@ -1,20 +1,19 @@
 {
   "Changes": [
     {
-      "LogName": "SebastianFemale display name [EN] Strings/NPCNames",
+      "LogName": "SebastianFemale display name [EN] Data/Characters",
       "Action": "EditData",
-      "Target": "Strings/NPCNames",
-      "TargetLocale": "",
-      "When": { "SebastianFemale": true },
-      "Entries": { "Sebastian": "{{SebastianName}}" }
+      "Target": "Data/Characters",
+      "Fields": { "Sebastian": { "DisplayName": "{{SebastianName}}" } },
+      "When": { "SebastianFemale": true }
     },
     {
-      "LogName": "SebastianFemale display name [RU] Strings/NPCNames",
+      "LogName": "SebastianFemale display name [RU] Data/Characters",
       "Action": "EditData",
-      "Target": "Strings/NPCNames",
+      "Target": "Data/Characters",
       "TargetLocale": "ru-RU",
-      "When": { "SebastianFemale": true },
-      "Entries": { "Sebastian": "{{SebastianNameNom}}" }
+      "Fields": { "Sebastian": { "DisplayName": "{{SebastianNameNom}}" } },
+      "When": { "SebastianFemale": true }
     }
   ]
 }

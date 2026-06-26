@@ -1,20 +1,19 @@
 {
   "Changes": [
     {
-      "LogName": "ElliottFemale display name [EN] Strings/NPCNames",
+      "LogName": "ElliottFemale display name [EN] Data/Characters",
       "Action": "EditData",
-      "Target": "Strings/NPCNames",
-      "TargetLocale": "",
-      "When": { "ElliottFemale": true },
-      "Entries": { "Elliott": "{{ElliottName}}" }
+      "Target": "Data/Characters",
+      "Fields": { "Elliott": { "DisplayName": "{{ElliottName}}" } },
+      "When": { "ElliottFemale": true }
     },
     {
-      "LogName": "ElliottFemale display name [RU] Strings/NPCNames",
+      "LogName": "ElliottFemale display name [RU] Data/Characters",
       "Action": "EditData",
-      "Target": "Strings/NPCNames",
+      "Target": "Data/Characters",
       "TargetLocale": "ru-RU",
-      "When": { "ElliottFemale": true },
-      "Entries": { "Elliott": "{{ElliottNameNom}}" }
+      "Fields": { "Elliott": { "DisplayName": "{{ElliottNameNom}}" } },
+      "When": { "ElliottFemale": true }
     }
   ]
 }

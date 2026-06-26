@@ -126,6 +126,18 @@
       "Entries": {
         "afterSamShow": "@,^концерт прошел просто отлично! Хотела еще раз поблагодарить тебя за помощь в создании нашей замечательной группы. Без тебя мы бы не справились!   ^   -{{SamNameNom}}[#]Благодарность от {{SamNameGen}}"
       }
+    },
+    {
+      "LogName": "SamFemale regender [EN] Characters/Dialogue/MarriageDialogue (generic spouse)",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogue",
+      "TargetLocale": "",
+      "When": {
+        "SamFemale": true
+      },
+      "Entries": {
+        "winter_Sam": "I've given up on being a musician. I'm a family woman now!"
+      }
     }
   ]
 }

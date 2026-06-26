@@ -21,7 +21,7 @@
         "SebastianFemale": true
       },
       "Entries": {
-        "dating_Sebastian": "Не смейся надо мной... Но я до этого никогда не была в отношениях.$l^Не смейся надо мной... Но у меня до этого никогда не было девушки.$l",
+        "dating_Sebastian": "Не смейся надо мной... Но я до этого никогда не была в таких отношениях.$l^Не смейся надо мной... Но у меня до этого никогда не было девушки.$l",
         "dating_Sebastian_memory_oneday": "Эй... Отлично выглядишь.$l#$e#Весь день думала о тебе...$l",
         "FlowerDance_Accept": "Да? Хорошо... согласна.#$b#Хм... Может, этот фестиваль не такой уж и плохой.$h",
         "GreenRain_2": "Я надеялась, что этот дождь вернется. С ним лето веселее проходит.",
@@ -112,6 +112,32 @@
         "funLeave_Sebastian": "Сегодня я собираюсь погулять. Мне нужно время побыть одной. Увидимся вечером.",
         "winter_28": "Хороший был год, @. Нужно бы немного отметить.[346]$h#$e#Уверена, следующий год будет еще лучше.$7",
         "Outdoor_4": "Надо завести побольше слаймов... Когда их много, можно неплохо на них заработать. Да и ухаживать за ними так просто.#$e#А еще слаймы разных цветов дают разные предметы. Не знаю, я просто подумала, что для нас это будет интересным хобби."
+      }
+    },
+    {
+      "LogName": "SebastianFemale regender [EN] Characters/Dialogue/MarriageDialogue (generic spouse)",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogue",
+      "TargetLocale": "",
+      "When": {
+        "SebastianFemale": true
+      },
+      "Entries": {
+        "Indoor_Night_Sebastian": "#$c .5#I may be a reclusive girl, but I'm always happy when you're around.$h#$e#Hi, @. Good to see you. It's comforting when you're around.$h"
+      }
+    },
+    {
+      "LogName": "SebastianFemale regender [RU] Characters/Dialogue/MarriageDialogue (generic spouse)",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogue",
+      "TargetLocale": "ru-RU",
+      "When": {
+        "SebastianFemale": true
+      },
+      "Entries": {
+        "Rainy_Day_Sebastian": "Сегодня я проснулась до рассвета и прогулялась по ферме. В ранний час тут так спокойно.",
+        "Indoor_Night_Sebastian": "#$c .5#Может, я и замкнутая девушка, но я всегда рада, когда ты рядом.$h#$e#Привет, @. Рада тебя видеть. С тобой так уютно.$h",
+        "spring_Sebastian": "Ого, какая я стала бледная... Надо будет помочь тебе с работой на ферме."
       }
     }
   ]
