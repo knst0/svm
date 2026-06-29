@@ -1,19 +1,31 @@
 {
   "Changes": [
     {
-      "LogName": "SamFemale display name [EN] Data/Characters",
+      "LogName": "SamFemale display name [EN/base] Data/Characters",
       "Action": "EditData",
       "Target": "Data/Characters",
-      "Fields": { "Sam": { "DisplayName": "{{SamName}}" } },
-      "When": { "SamFemale": true }
+      "Fields": {
+        "Sam": {
+          "DisplayName": "{{SamName}}"
+        }
+      },
+      "When": {
+        "SamFemale": true
+      }
     },
     {
       "LogName": "SamFemale display name [RU] Data/Characters",
       "Action": "EditData",
       "Target": "Data/Characters",
-      "TargetLocale": "ru-RU",
-      "Fields": { "Sam": { "DisplayName": "{{SamNameNom}}" } },
-      "When": { "SamFemale": true }
+      "Fields": {
+        "Sam": {
+          "DisplayName": "{{SamNameNom}}"
+        }
+      },
+      "When": {
+        "SamFemale": true,
+        "Language": "ru"
+      }
     }
   ]
 }

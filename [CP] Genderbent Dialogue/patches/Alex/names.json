@@ -1,19 +1,31 @@
 {
   "Changes": [
     {
-      "LogName": "AlexFemale display name [EN] Data/Characters",
+      "LogName": "AlexFemale display name [EN/base] Data/Characters",
       "Action": "EditData",
       "Target": "Data/Characters",
-      "Fields": { "Alex": { "DisplayName": "{{AlexName}}" } },
-      "When": { "AlexFemale": true }
+      "Fields": {
+        "Alex": {
+          "DisplayName": "{{AlexName}}"
+        }
+      },
+      "When": {
+        "AlexFemale": true
+      }
     },
     {
       "LogName": "AlexFemale display name [RU] Data/Characters",
       "Action": "EditData",
       "Target": "Data/Characters",
-      "TargetLocale": "ru-RU",
-      "Fields": { "Alex": { "DisplayName": "{{AlexNameNom}}" } },
-      "When": { "AlexFemale": true }
+      "Fields": {
+        "Alex": {
+          "DisplayName": "{{AlexNameNom}}"
+        }
+      },
+      "When": {
+        "AlexFemale": true,
+        "Language": "ru"
+      }
     }
   ]
 }

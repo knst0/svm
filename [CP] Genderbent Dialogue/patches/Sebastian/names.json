@@ -1,19 +1,31 @@
 {
   "Changes": [
     {
-      "LogName": "SebastianFemale display name [EN] Data/Characters",
+      "LogName": "SebastianFemale display name [EN/base] Data/Characters",
       "Action": "EditData",
       "Target": "Data/Characters",
-      "Fields": { "Sebastian": { "DisplayName": "{{SebastianName}}" } },
-      "When": { "SebastianFemale": true }
+      "Fields": {
+        "Sebastian": {
+          "DisplayName": "{{SebastianName}}"
+        }
+      },
+      "When": {
+        "SebastianFemale": true
+      }
     },
     {
       "LogName": "SebastianFemale display name [RU] Data/Characters",
       "Action": "EditData",
       "Target": "Data/Characters",
-      "TargetLocale": "ru-RU",
-      "Fields": { "Sebastian": { "DisplayName": "{{SebastianNameNom}}" } },
-      "When": { "SebastianFemale": true }
+      "Fields": {
+        "Sebastian": {
+          "DisplayName": "{{SebastianNameNom}}"
+        }
+      },
+      "When": {
+        "SebastianFemale": true,
+        "Language": "ru"
+      }
     }
   ]
 }

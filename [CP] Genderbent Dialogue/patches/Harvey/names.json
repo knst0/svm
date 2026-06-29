@@ -1,19 +1,31 @@
 {
   "Changes": [
     {
-      "LogName": "HarveyFemale display name [EN] Data/Characters",
+      "LogName": "HarveyFemale display name [EN/base] Data/Characters",
       "Action": "EditData",
       "Target": "Data/Characters",
-      "Fields": { "Harvey": { "DisplayName": "{{HarveyName}}" } },
-      "When": { "HarveyFemale": true }
+      "Fields": {
+        "Harvey": {
+          "DisplayName": "{{HarveyName}}"
+        }
+      },
+      "When": {
+        "HarveyFemale": true
+      }
     },
     {
       "LogName": "HarveyFemale display name [RU] Data/Characters",
       "Action": "EditData",
       "Target": "Data/Characters",
-      "TargetLocale": "ru-RU",
-      "Fields": { "Harvey": { "DisplayName": "{{HarveyNameNom}}" } },
-      "When": { "HarveyFemale": true }
+      "Fields": {
+        "Harvey": {
+          "DisplayName": "{{HarveyNameNom}}"
+        }
+      },
+      "When": {
+        "HarveyFemale": true,
+        "Language": "ru"
+      }
     }
   ]
 }

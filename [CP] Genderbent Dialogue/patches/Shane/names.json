@@ -1,19 +1,31 @@
 {
   "Changes": [
     {
-      "LogName": "ShaneFemale display name [EN] Data/Characters",
+      "LogName": "ShaneFemale display name [EN/base] Data/Characters",
       "Action": "EditData",
       "Target": "Data/Characters",
-      "Fields": { "Shane": { "DisplayName": "{{ShaneName}}" } },
-      "When": { "ShaneFemale": true }
+      "Fields": {
+        "Shane": {
+          "DisplayName": "{{ShaneName}}"
+        }
+      },
+      "When": {
+        "ShaneFemale": true
+      }
     },
     {
       "LogName": "ShaneFemale display name [RU] Data/Characters",
       "Action": "EditData",
       "Target": "Data/Characters",
-      "TargetLocale": "ru-RU",
-      "Fields": { "Shane": { "DisplayName": "{{ShaneNameNom}}" } },
-      "When": { "ShaneFemale": true }
+      "Fields": {
+        "Shane": {
+          "DisplayName": "{{ShaneNameNom}}"
+        }
+      },
+      "When": {
+        "ShaneFemale": true,
+        "Language": "ru"
+      }
     }
   ]
 }
