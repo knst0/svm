@@ -4,7 +4,7 @@ All notable changes to `Genderbent Dialogue` are documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/);
 this pack follows [Semantic Versioning](https://semver.org/).
 
-## [1.2.0] - 2026-06-27
+## [1.2.0] - 2026-06-29
 
 ### Fixed
 
